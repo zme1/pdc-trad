@@ -4,5 +4,7 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="text" encoding="UTF-8" indent="yes"/>
-    <xsl:template match="/"></xsl:template>
+    <xsl:template match="/">
+        <xsl:copy-of select="."/>
+    </xsl:template>
 </xsl:stylesheet>
