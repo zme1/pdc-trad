@@ -30,7 +30,8 @@ p = attribute p { text }
 entry = element entry { src-type , alt , trad+ }
 src-type = attribute src-type { "word-ref" }
 alt = element alt { pos , level , locution , fig , search, register?, note? , multiple? , text }
-search = attribute search { "body" | "head" | "body-head-obj" | "none" | "body-head" | "bodyMult-head" | "na" | "body-obj" | "head-obj" | "body-is-head" | "obj" | "comeBack" | "body-is-head-obj" }
+search = attribute search { "body" | "head" | "body-head-obj" | "none" | "all" | "body-head" | "bodyMult-head" | "bodyMult" | "na" | "body-obj" | "head-obj" | "body-is-head" | "obj" | "comeBack" | "body-is-head-obj" }
+# Consider changing any obj text to mod and attaching it directly to whichever lexeme it modifies -- bodyMod // headMod // bodyIsHeadMod // etc.
 trad = element trad { pos , pos2? , level , locution , fig , register?, note? , pdc? , metaphor? , text }
 locution = attribute loc {"true" | "false" }
 fig = attribute fig { "true" | "false" }
