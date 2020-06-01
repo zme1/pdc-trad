@@ -1,0 +1,4351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rnc/expressions-par-type.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../rnc/expressions-par-type.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus>
+   <meta>
+      <src type="idiom-dic">
+         <title>A Dictionary of american idioms, fifth edition</title>
+         <author>Adam Makkai, Ph.D.</author>
+         <pubInfo>
+            <publisher>Barron's Educational Series</publisher>
+            <loc>
+               <city>Hauppauge</city>
+               <st>NY</st>
+            </loc>
+            <yr>2013</yr>
+         </pubInfo>
+      </src>
+      <src type="word-ref">
+         <title>Word Reference : Dictionnaire de langue en ligne</title>
+         <uri>http://www.wordreference.com</uri>
+      </src>
+   </meta>
+   <entries>
+      <div type="body">
+         <exprs>
+            <head>
+               <desc pos="adv" level="interjection"/>
+               <expr p="257">Over my dead body!</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Traiter/classer les interjections comme les locutions ? -->
+               <alt search="head" pos="na" level="interjection" register="slang" fig="true" loc="false">Over my dead body!</alt>
+               <!-- Ceci n'est pas désigné explicitement comme locution -->
+               <trad pos="na" loc="false" level="interjection" fig="false" pdc="same"
+                  metaphor="unsure">Il faudra me marcher sur le corps!</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="toe">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="84">Dig one's heels in or dig one's toes in</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" loc="true" fig="true" level="phrase">Dig your heels in</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Camper
+                  sur ses positions</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="143">Go toe to toe with somebody</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-is-head" pos="adv" loc="false" fig="false" level="word">Toe-to-toe</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="dif" metaphor="unsure">En
+                  face à face</trad>
+            </entry>
+
+            <!-- Ceci n'apparait pas en tant qu'entrée -->
+            <!-- <entry src-type="word-ref">
+               <alt search="" pos="v" fig="false" loc="false" level="word">To go toe-to-toe with [sb]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Affronter [qqn]</trad>-->
+            <!--</entry>-->
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="246">On one's toes</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" level="phrase" fig="true" loc="true" register="informal">Be on your
+                  toes</alt>
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="true" pdc="none"
+                  metaphor="dif">Être sur le qui-vive</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="330">Step one one's toes or tread on one's toes</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" loc="true" fig="true" level="phrase">Step on [sb]'s toes, tread on
+                  [sb]'s toes</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Marcher
+                  sur les plates-bandes de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="366">Turn up one's toes</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="foot">
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="15">At one's feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="35">Born with two left feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="40">Bring one to his feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="54">Catch one flatfooted</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="na" pos="adj" loc="false" fig="true" level="word">Flatfooted, flat-footed</alt>
+               <trad pos="adj" level="phrase" loc="false" fig="false">Pris par surprise</trad>
+               <trad pos="adj" level="phrase" loc="false" fig="false">Pris au dépourvu</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="63">Cold feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="104">Fall over one's own feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="107">Feet of clay</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="n" level="phrase" loc="false" fig="true">Feet of clay</alt>
+               <!-- Ceci n'est pas désigné explicitement comme locution -->
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="same" metaphor="same">Pieds
+                  d'argile</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="107">Feet on the ground</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" loc="true" fig="false" level="phrase">Have your feet on the ground</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Avoir
+                  les pieds sur terre</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="115">Foot in the door</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-obj" pos="v" fig="true" loc="true" level="phrase">Get your foot in the door</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Mettre
+                  le pied [quelque part], avoir un pied [quelque part]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Avoir le
+                  pied à l'étrier</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Avoir le
+                  pied dans la place</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="128">Get one's feet wet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="158">Have two left feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="186">Itchy feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="199">Land on one's feet also land on both feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="206">Let grass grow under one's feet</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head-obj" level="phrase" loc="true" fig="false" pos="v">Let the grass grow under your
+                  feet</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Rester
+                  les bras croisés</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="244">One foot in the grave</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-obj" pos="v" fig="true" loc="true" level="phrase">Have one foot in the grave</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Avoir
+                  un pied dans la tombe</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" pos2="adv" level="phrase"/>
+               <expr p="245">On foot</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="adv" level="phrase" loc="false" fig="false">On foot</alt>
+               <!-- S'agit-il d'une métaphore ? -->
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">À
+                  pied</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="246">On one's feet</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" loc="false" fig="false" level="phrase">On your feet</alt>
+               <trad pos="adv" level="word" loc="false" fig="false">Debout</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="268">Play footsie</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" fig="false" loc="true" level="phrase">Play footsie with [sb], play
+                  footsies with [sb]</alt>
+               <!-- S'agit-il de la même métaphore ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Faire
+                  du pied à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="277">Put one's best foot forward</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" loc="true" fig="true" level="phrase">Put your best foot forward</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Faire
+                  de son mieux</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" loc="true" fig="true" level="phrase">Put your best foot forward</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se montrer à son avantage</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="278">Put one's foot down</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" level="phrase" loc="true" fig="true" register="informal">Put your foot
+                  down</alt>
+               <!-- Métaphorique ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Faire
+                  acte d'autorité</trad>
+
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Taper du
+                  poing (sur la table)</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Sévir</trad>
+               <trad pos="v" level="word" loc="false" fig="false">S'affirmer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal" multiple="true"/>
+               <expr p="278">Put one's foot in it or put one's foot in one's mouth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Put your foot in your mouth</alt>
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="true" pdc="same"
+                  metaphor="dif">Mettre les pieds dans le plat</trad>
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="false" pdc="none"
+                  metaphor="none">Faire une gaffe</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Gaffer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="286">Regain one's feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="309">Shake the dust from one's feet</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head-obj" pos="v" level="phrase" loc="true" fig="true">Shake the dust from your feet</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Partir</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Déguerpir</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Se
+                  tirer</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Se
+                  tailler</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Se
+                  barrer</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Mettre
+                  les voiles</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="310">Shoot oneself in the foot</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="327">Stand on one's own feet or stand on one's own two feet</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" loc="true" fig="false" level="phrase">Stand on your own two feet</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se débrouiller seul</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Être autonome</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Voler de
+                  ses propres ailes</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="339">Take a load off one's feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="352">Think on one's feet</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="false">Think on your feet</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Être réactif, être
+                  réactive</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Réflichir vite</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="360">To one's feet</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="373">Vote with one's feet</expr>
+            </head>
+            <!-- Plein de traductions ; revenir après avoir contacté M. Rey -->
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="374">Wait on hand and foot</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher wait et foot, NON PAS hand ! -->
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="false">Wait on [sb] hand and foot</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure">Être
+                  aux petits soins avec [qqn]</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="heel">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="literary"/>
+               <expr p="2">Achilles' heel</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" loc="false" fig="true">Achilles' heel</alt>
+               <!-- Très frappant que cette entrée n'est pas désignée comme figurée !!!!! -->
+               <trad pos="n" level="phrase" loc="false" fig="false" pdc="same" metaphor="same">Talon
+                  d'Achille</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="15">At one's heels</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="62">Close on the heels</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="68">Come to heel</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="70">Cool one's heels</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" multiple="true"/>
+               <expr p="158">Head over heels also heels over head</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher fall et head, NON PAS heels ! -->
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="false">Fall head over heels</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Tomber la tête la première</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="adj" level="phrase" loc="true" fig="true">Fall head over heels</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Tomber
+                  raide dingue (amoureux), tomber raide dingue (amoureuse)</trad>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif"
+                  >Tomber fou amoureux, tomber folle amoureuse</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Fall head over heels for [sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Tomber
+                  raide dingue (amoureux) de [qqn], tomber raide dingue (amoureuse) de [qqn]</trad>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif"
+                  >Tomber fou amoureux de [qqn], tomber folle amoureuse de [qqn]</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Fall head over heels in love with
+                  [sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Tomber
+                  raide dingue (amoureux) de [qqn], tomber raide dingue (amoureuse) de [qqn]</trad>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif"
+                  >Tomber fou amoureux de [qqn], tomber folle amoureuse de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="196">Kick up one's heels</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true" register="informal">Kick up your
+                  heels</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Faire
+                  la fête</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Se défouler</trad>
+               <trad pos="v" level="word" loc="false" fig="false" register="informal"
+                  >S'éclater</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="306">Set back one one's heels or knock back on one's heels</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="346">Take to one's heels also show a clean pair of heels</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" fig="true" loc="true" register="informal">Show [sb] a
+                  clean pair of heels, show a clean pair of heels to [sb]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Semer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="364">Turn on one's heel</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="366">Under one's heel</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="knee">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="197">Knee-jerk reaction or response</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" fig="false" loc="false">Knee-jerk reaction, UK: kneejerk
+                  reaction</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Réaction instinctive, réaction
+                  spontanée, réaction irréfléchie</trad>
+               <trad pos="n" level="word" loc="false" fig="false">Reflexe</trad>
+               <trad pos="n" level="phrase" loc="false" fig="false">Réponse hâtive, réponse
+                  irréfléchie</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="246">On one's knees</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" fig="true" loc="false" level="phrase">On your knees</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Sur
+                  les genoux</trad>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">À
+                  genoux</trad>
+               <trad pos="adv" level="phrase" loc="true" register="informal" fig="true" pdc="same"
+                  metaphor="same">Sur les rotules</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="leg">
+         <exprs>
+            <head>
+               <desc level="interjection"/>
+               <expr p="37">Break a leg</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="na" level="interjection" register="slang" fig="true" loc="false">Break a leg!</alt>
+               <trad pos="na" loc="false" level="interjection" fig="false">Merde !</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="71">Cost an arm and a leg</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" register="slang" fig="true" loc="true">Cost an arm and a
+                  leg</alt>
+               <!-- The metaphor is mostly the same, excluded the leg from the English expression -->
+               <trad pos="v" level="phrase" loc="true" fig="true" register="informal" pdc="same"
+                  metaphor="same">Coûter un bras</trad>
+
+               <!-- is this the same metaphor ? -->
+               <trad pos="v" level="phrase" loc="true" fig="true" register="informal" pdc="dif"
+                  metaphor="dif">Coûter les yeux de la tête</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="123">Get a leg up on one</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="true" register="informal">Get a leg
+                  up</alt>
+               <trad pos="v " level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Prendre
+                  une longeur d'avance</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Prendre le dessus</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="205">Leg to stand on</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="236">Not a leg to stand on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" fig="true" loc="true" level="phrase">Not have a leg to stand on</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Ne pas
+                  avoir de preuves</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Reposer sur rien, reposer sur du vent</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="274">Pull one's leg</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true" register="informal">Pull [sb]'s
+                  leg</alt>
+               <!-- Ceux-ci ne sont pas désignés explicitement comme locutions -->
+               <trad pos="v" level="phrase" loc="false" fig="true" pdc="none" metaphor="dif">Faire
+                  marcher</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="dif" metaphor="dif">Se
+                  payer la tête de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="308">Shake a leg</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Ceci n'est pas désigné comme locution -->
+               <alt search="body-head" pos="na" loc="false" fig="true" level="interjection">Shake a leg!</alt>
+               <trad pos="v" level="interjection" loc="false" fig="false" register="informal"
+                  >Bouge-toi !</trad>
+               <trad pos="v" level="interjection" loc="false" fig="false" register="informal"
+                  >Secoue-toi !</trad>
+               <trad pos="v" level="interjection" loc="false" fig="false" register="informal"
+                  >Grouille-toi !</trad>
+               <trad pos="v" level="interjection" loc="false" fig="false" register="informal"
+                  >Magne-toi !</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="333">Stretch one's legs</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" level="phrase" loc="true" fig="false" register="informal">Stretch your
+                  legs</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">Se
+                  dégourdir les jambes</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="hip">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="310">Shoot from the hip</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Shoot from the hip</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Démarrer
+                  au quart de tour, partir au quart de tour</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Foncer
+                  tête baissée</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="rear">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="10">A pain in the ass or a pain in the butt or a pain in the rear</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" loc="false" fig="true" register="slang" level="phrase" note="vulgar"
+                  >Pain in the ass (US), pain in the arse (UK)</alt>
+               <trad pos="n" level="word" loc="false" fig="false" register="slang" note="vulgar"
+                  >Emmerdeur, emmerdeuse</trad>
+               <trad pos="n" level="word" loc="false" fig="false" note="vulgar" pdc="dif"
+                  metaphor="dif">Casse-couilles</trad>
+               <trad pos="adj" level="word" loc="false" fig="false" note="vulgar">Chiant,
+                  caisse-couilles</trad>
+               <trad pos="adj" level="word" loc="false" fig="false" register="informal"
+                  >Gonflant</trad>
+               <trad pos="n" level="word" loc="false" fig="false" note="vulgar">Chieur,
+                  chieuse</trad>
+               <trad pos="n" pos2="adj" loc="false" level="word" fig="false" register="informal"
+                  pdc="dif" metaphor="dif">Casse-pieds</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="slang"/>
+               <expr p="35">Booty call</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" register="slang" fig="false" loc="false">Booty call</alt>
+               <trad pos="n" level="phrase" loc="false" fig="true" note="vulgar" pdc="same"
+                  metaphor="dif">Plan cul</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" note="vulgar" multiple="true"/>
+               <expr p="44">Bust one's ass or bust one's balls or bust one's chop</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" note="vulgar"/>
+               <expr p="72">Cover one's ass</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true" note="vulgar" register="slang"
+                  >Cover your ass</alt>
+               <!-- S'agit-il d'une partie du corps ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif"
+                  >Protéger ses arrières</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Se couvrir</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" note="vulgar" multiple="true"/>
+               <expr p="112">Flat on one's ass or flat on one's back</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="127">Get one's ass in gear or get one's rear in gear</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang" note="vulgar"/>
+               <expr p="156">Have one's ass in a sling</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" note="vulgar"/>
+               <expr p="196">Kiss one's ass</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" note="vulgar"/>
+               <expr p="257">Out on one's ass or out on one's ear</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc level="sentence" note="vulgar"/>
+               <expr p="312">Shove it up your ass!</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="balls">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang" note="vulgar"/>
+               <expr p="38">Break one's balls</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang" note="vulgar"/>
+               <expr p="157">Have someone by the balls</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="chest">
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="241">Off one's chest</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" level="phrase" loc="true" fig="true">Get off your chest</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Dire ce
+                  qu'on a sur le cœur</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Se
+                  soulager d'un poids</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Vider
+                  son sac</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="246">On one's chest</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="271">Pound one's chest</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="back">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="18">Backbreaking job or backbreaking task</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="na" pos="adj" loc="false" fig="true" level="word">Backbreaking, back-breaking</alt>
+               <trad pos="adj" level="word" loc="false" fig="false">Éreintant, épuisant</trad>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Qui vous casse les reins</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="19">Back to the wall or back against the wall</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="obj" pos="v" level="phrase" fig="true" loc="true">Have your back to the wall</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Être
+                  dos au mur</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="25">Behind one's back</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="adv" level="phrase" loc="true" fig="true" register="informal">Behind [sb]'s
+                  back</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Dans
+                  le dos de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="38">Break the back of somebody or something</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="127">Get off one's back</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" level="phrase" loc="true" fig="true" register="informal">Get off [sb]'s
+                  back</alt>
+               <trad pos="v" level="word" loc="false" fig="false" register="informal">lâcher</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" register="informal" pdc="none"
+                  metaphor="dif">Lâcher les baskets de [qqn]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" register="informal" pdc="none"
+                  metaphor="dif">lâcher la grappe de [qqn]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" register="informal" pdc="none"
+                  metaphor="unsure">Foutre la paix à[qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="229">Monkey on one's back</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="241">Off one's back</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="246">On one's back</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="262">Pat oneself on the back</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true" register="informal">Pat yourself on
+                  the back</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Se féliciter</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Se congratuler</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" pos2="v" level="phrase"/>
+               <expr p="262">Pat on the back</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="n" level="phrase" fig="true" loc="false">Pat on the back</alt>
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="same" metaphor="same">Tape
+                  dans le dos</trad>
+               <trad pos="n" level="word" loc="false" fig="false">Félicitations</trad>
+               <trad pos="n" level="word" loc="false" fig="false">Compliments</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="277">Put one's back to it</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="301">Scratch one's back</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="364">Turn one's back on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" loc="false" fig="false" level="phrase">Turn your back on [sb/sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same"
+                  >Tourner le dos à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="376">Watch one's back</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" multiple="true"/>
+               <expr p="378">Weight of the world on one's shoulders or world on one's shoulders or
+                  world on one's back</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="thumb">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="134">Give one the thumbs up</expr>
+            </head>
+
+            <!-- Hand gesture, figurative in English ? Maybe not -->
+            <!--<entry src-type="word-ref">
+               <alt search="" pos="n" level="word" fig="false" loc="false" register="informal">Thumbs up, thumbs-up</alt>
+               <trad pos="n" level="phrase" loc="false" register="informal" fig="false">Signe ok, signe que
+                  c'est bon, signe</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Pouce en haut, pouce vers le haut</trad>
+            </entry>-->
+            <!-- To give the OK, figurative -->
+            <entry src-type="word-ref">
+               <alt search="na" pos="n" level="word" loc="false" fig="true" register="informal">Thumbs up,
+                  thumbs-up</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Approuver</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Aimer</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Mettre
+                  une bonne note à [qqch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="331">Stick out like a sore thumb</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="356">Thumb one's nose</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="356">Thumb through</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-is-head" pos="v" level="phrase" loc="false" fig="false" register="informal">Thumb through
+                  [sth]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Feuilleter</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="364">Turn thumbs down</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="na" pos="n" level="word" loc="false" fig="true" register="informal">Thumbs down,
+                  thumbs-down</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Refuser</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Ne pas aimer [qqch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Donner
+                  une mauvaise note à [qqch]</trad>
+               <trad pos="n" level="phrase" loc="false" fig="true" register="informal" pdc="same"
+                  metaphor="same">Pouce en bas, pouce vers le bas</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="366">Twiddle one's thumbs</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" fig="true" loc="true" register="informal">Twiddle your
+                  thumbs</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Se
+                  tourner les pouces</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="366">Under one's thumb or under the thumb</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="finger">
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="15">At one's fingertips</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" level="phrase" fig="true" loc="true">At your fingertips</alt>
+               <!-- S'agit-il de la même métaphore ? -->
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="dif" metaphor="unsure">À
+                  portée de main</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="43">Burn one's fingers</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head-obj" pos="v" level="phrase" fig="true" loc="true">Get your fingers burned (US), get
+                  your fingers burnt (UK), burn your fingers</alt>
+               <!-- S'agit-il de la même métaphore ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Avoir été échaude</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="75">Cross one's fingers</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="110">Finger in the pie</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head-obj" pos="v" level="phrase" fig="true" loc="true">Have a finger in the pie</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se mêler de [qqch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Fourrer
+                  son nez dans [qqch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="201">Lay a finger on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="false" loc="true">Lay a finger on [sb]/[sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Lever la
+                  main sur</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="208">lift a finger or lift a hand also raise a hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher lift et finger, NON PAS hand ! -->
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Lift a finger, lift a hand</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Lever
+                  le petit doigt</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="238">Not to lift a finger</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="278">Put one's finger on also lay one's finger on</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="317">Slip through one's fingers</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true">Slip through [sb]'s fingers</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Filer
+                  entre les doigts de [qqn]</trad>
+               <trad pos="v" level="phrase" fig="true" loc="true" pdc="same" metaphor="same">Glisser
+                  entre les doigts de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="319">Snap one's fingers at</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="slang"/>
+               <expr p="331">Sticky fingers</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="366">Twist one around one's little finger also turn one around one's little
+                  finger or wrap one around one's little finger</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="knuckle">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="284">Rap one's knuckles</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="palm">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="146">Grease one's palm or grease the palm</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Grease [sb]'s palm, grease the palm
+                  of [sb], grease [sb]'s hand, grease the hand of [sb]</alt>
+               <!-- S'agit-il de la même métaphore ? -->
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="unsure"
+                  >Graisser la patte de [qqn]</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="hand">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="12">Ask for one's hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="14">At hand also at close hand or near at hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="adj" level="phrase" fig="true" loc="true">At hand</alt>
+               <trad pos="adj" level="word" loc="false" fig="false">Imminent, prochain</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="18">Backhanded compliment</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" loc="false" fig="false">Backhanded compliment</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Compliment maladroit, compliment
+                  ambigu</trad>
+               <trad pos="n" level="phrase" loc="false" fig="false" register="informal">Compliment
+                  vache</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" loc="false" fig="true">Left-handed compliment, backhanded
+                  compliment</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Compliment maladroit, compliment
+                  ambigu</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="22">Be a good hand at</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="22">Be a poor hand at</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="31">Bite the hand that feeds one</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="slang"/>
+               <expr p="60">Clean hands</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher clean, NON PAS hands ! -->
+               <alt search="comeBack" pos="n" level="phrase" fig="true" loc="false">Clean hands</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Passé irréprochable</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="61">Close at hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="adj" level="phrase" loc="false" fig="true">Close at hand</alt>
+               <trad pos="adj" level="word" loc="false" fig="false">Proche, imminent</trad>
+
+               <!-- Makes little sense, this translation -->
+               <trad pos="v" level="word" loc="false" fig="false">Approcher</trad>
+
+               <trad pos="adv" level="phrase" loc="false" fig="false">Tout près</trad>
+               <trad pos="prep" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">À
+                  notre porte</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="119">From hand to hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" pos2="adj" level="phrase"/>
+               <expr p="148">Hand in glove or hand and glove</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-is-head-obj" pos="adv" level="phrase" loc="true" fig="true">Hand in glove also US: hand and
+                  glove</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">Main
+                  dans la main</trad>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">De
+                  concert</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body-is-head-obj" pos="adv" level="phrase" loc="false" fig="true">Hand in glove with [sb/sth],
+                  also US: hand and glove with [sb/sth]</alt>
+               <trad pos="adv" level="phrase" loc="false" fig="false" pdc="same" metaphor="dif">Main
+                  dans la main avec [qqn/qqch]</trad>
+            </entry>
+
+         </exprs>
+         <!-- Not using this one this semester. -->
+<!--         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="148">Hand it to</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false" register="informal">Have to hand
+                  it to [sb/sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Falloir rendre justice à, devoir rendre justice à</trad>
+            </entry>
+         </exprs> -->
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" register="informal"/>
+               <expr p="149">Hand over fist</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-is-head" pos="adv" level="phrase" loc="false" fig="true" register="informal">Hand over
+                  fist</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif"
+                  >(perdant) À tour de bras</trad>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >(gagnant) À foison</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="149">Hand to hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" level="phrase" fig="false" loc="false">Hand-to-hand, hand to
+                  hand</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Au
+                  corps à corps</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="153">Have a hand in</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="false" register="informal">Have a hand in [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être
+                  impliqué dans [qch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être
+                  complice de [qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="155">Have in the palm of one's hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher palm, NON PAS have NI hand ! -->
+               <alt search="body" pos="v" level="phrase" fig="true" loc="true">Have [sb] in the palm of your
+                  hand</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Avoir
+                  [qqn] dans sa poche</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="156">Have one's hands full</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" level="phrase" fig="true" loc="true">Have your hands full</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être
+                  bien occupé, être débordé</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure">Ne
+                  pas chômer</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure">Ne
+                  pas avoir une minute à soi</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="158">Have time on one's hands</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="165">Hold one's hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="178">In hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="189">Join forces or join hands</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" fig="true" loc="true">Join hands, join hands with
+                  [sb]</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="same" metaphor="dif">Agir
+                  main dans la main [avec qqn]</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="same" metaphor="dif">Se
+                  donner la main</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="193">Keep one's hand in</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="201">Lay hands on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" register="informal" loc="true" fig="true">Lay your hands
+                  on [sth], lay hands on [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Mettre
+                  la main sur [qqch]</trad>
+            </entry>
+         </exprs>
+         <!-- Duplicate -->
+<!--         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="205">Left-handed compliment</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">Left-handed compliment, backhanded
+                  compliment</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Compliment maladroit, compliment
+                  ambigu</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="205">Lend a hand or give a hand also bear a hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" fig="true" loc="true">Lend a hand</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Donner
+                  un coup de main</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="210">live from hand to mouth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher Live et mouth, NON PAS hand ! -->
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="false">Live from hand to mouth, live hand
+                  to mouth</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Avoir du
+                  mal à joindre les deux bouts</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Tirer le
+                  diable par la queue</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="241">Off one's hands</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="246">On hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="246">On one hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" level="phrase" loc="false" fig="false">On one hand</alt>
+               <trad pos="adv" level="phrase" loc="false" fig="false">D'un côté</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" level="phrase" fig="true" loc="false">On the one hand ... on the other
+                  hand, on the one hand ... on the other, on one hand ... on the other hand, on one
+                  hand ... on the other</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >D'un part (...d'autre part)</trad>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >D'un côté (...de l'autre)</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" pos2="adj" level="phrase"/>
+               <expr p="246">On one's hands</expr>
+            </head>
+         </exprs>
+
+         <!-- Duplicate -->
+         <!--         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="249">On the other hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" fig="true" loc="false">On the one hand ... on the other hand, on the one hand
+                  ... on the other, on one hand ... on the other hand, on one hand ... on the
+                  other</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false">D'un part (...d'autre part)</trad>
+               <trad pos="adv" level="phrase" loc="true" fig="false">D'un côté (...de l'autre)</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="254">Out of hand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" level="phrase" loc="false" fig="false">Out of hand</alt>
+               <trad pos="adj" level="word" loc="false" fig="false">Incontrôlable</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt pos="v" level="phrase" loc="true" fig="false" search="body" register="informal">Get out of hand</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Devenir incontrôlable</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Dégénerer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="278">Put one's hand to or set one's hand to or turn one's hand to</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="278">Put one's hand to the plow or set one's hand to the plow</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="288">Right-hand man</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="n" level="phrase" fig="false" loc="false">Right-hand man</alt>
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="dif" metaphor="dif">Bras
+                  droit</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="308">Shake hands on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" fig="false" loc="true">Shake hands on [sth]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Conclure</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Convenir de</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="312">Show of hands</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="n" level="phrase" fig="false" loc="false">Show of hands</alt>
+               <trad pos="n" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">Vote
+                  à main lévée</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="head" pos="n" level="phrase" fig="false" loc="false">By a show of hands</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">À mains lévées</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="head" pos="n" level="phrase" fig="false" loc="false">Vote by a show of hands</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Vote à main levée</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="312">Show one's hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="315">Sit on one's hands</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" fig="true" loc="true">Sit on your hands</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Se
+                  tourner les pouces</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Rester
+                  les bras croisés</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="339">Take a hand in</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="342">Take off one's hands</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="356">Throw up one's hands</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true">Throw up your hands</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Lever
+                  les bras au ciel</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="356">Tie one's hands</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="364">Turn a hand</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="376">Wash one's hands of</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true">Wash your hands of [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Se
+                  laver les mains de [qqch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="383">Win hands down</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true" register="informal">Win hands
+                  down</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Gagner haut la main</trad>
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="true" pdc="dif"
+                  metaphor="dif">Gagner les doigts dans le nez</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="elbow">
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="15">At one's elbow</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="98">Elbow one's way into or out of</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-is-head" pos="v" level="phrase" fig="true" loc="false" register="informal">Elbow your way
+                  in, elbow in</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">Jouer
+                  des coudes pour entrer quelque part</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">Entrer
+                  en jouand des coudes</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="293">Rub elbows also rub shoulders</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" register="informal" loc="true" fig="true">Rub shoulders
+                  with [sb], rub elbows with [sb]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Côtoyer, fréquenter</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="arm">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="134">Give one's right arm for</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="311">Shot in the arm</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" loc="false" fig="true" register="informal">Shot in the
+                  arm</alt>
+               <trad pos="v" level="phrase" loc="false" fig="true" pdc="none" metaphor="dif">Coup de
+                  fouet</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="366">Twist one's arm</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Twist [sb]'s arm</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Forcer la
+                  main à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="385">With open arms</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="adv" level="phrase" loc="false" fig="true">With open arms</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">À
+                  bras ouverts</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="shoulder">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="59">Chip on one's shoulder</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher have, chip et shoulder ! -->
+               <alt search="body-head-obj" pos="v" level="phrase" fig="true" loc="true">Have a chip on your shoulder</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être
+                  aigri</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">En
+                  vouloir à tout le monde</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="76">Cry on one's shoulder</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" multiple="true"/>
+               <expr p="141">Good head on one's shoulders</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher have et head, NON PAS shoulders -->
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="true">Have a good head on your
+                  shoulders</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Avoir
+                  la tête sur les épaules</trad>
+            </entry>
+         </exprs>
+         <!-- Duplicate -->
+<!--         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="153">Have a good head on one's shoulders</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Have a good head on your
+                  shoulders</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Avoir
+                  la tête sur les épaules</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" multiple="true"/>
+               <expr p="158">Head and shoulders</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher head, NON PAS shoulders NI be ! -->
+               <alt search="body" pos="v" level="phrase" fig="true" loc="true">Be head and shoulders above
+                  [sb/sth], stand head and shoulders above [sb/sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure">Être
+                  largement au-dessus de [qqn/qch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Dépasser largement le niveau de [qqn/qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="213">Look over one's shoulder</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" pos2="adj" level="phrase"/>
+               <expr p="246">On one's shoulders</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="278">Put one's shoulder to the wheel</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="311">Shoulder the burden or shoulder the task</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="311">Shoulder to cry on or to lean on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Comment désigné ce syntagme enchassé ? dans l'attribute @search -->
+               <alt search="body-is-head-obj" pos="n" level="phrase" loc="false" fig="true">A shoulder to cry on</alt>
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="same" metaphor="same">Une
+                  épaule sur laquelle pleurer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="311">Shoulder to shoulder</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" loc="false" fig="true">Stand shoulder to shoulder</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Se
+                  serrer les coudes</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" loc="false" fig="true">Stand shoulder to shoulder
+                  with</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="none" metaphor="dif">Être
+                  aux côtés de</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" register="informal"/>
+               <expr p="333">Straight from the shoulder</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="neck">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="literary"/>
+               <expr p="5">Albatross around one's neck</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="38">Break one's neck</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body" pos="v" level="phrase" loc="true" fig="true">Break your neck</alt>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Se
+                  fouler</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se donner du mal</trad>
+
+               <trad pos="v" level="phrase" loc="false" note="vulgar" fig="false" pdc="dif"
+                  metaphor="dif">Se casser le cul, se crever le cul</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="39">Breathe down one's neck</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="false" loc="true">Breathe down [sb]'s neck</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Ne pas
+                  lâcher [qqn] d'une semelle</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="53">Catch it in the neck or get it in the neck</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="276">Put a noose around one's neck</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="289">Risk one's neck</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang" multiple="true"/>
+               <expr p="299">Save one's neck or save one's skin</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="false" loc="true">Save [sb]'s neck</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="unsure"
+                  >Sauver la peau de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="330">Stick one's neck out or stick one's chin out</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="false">Stick your neck out</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Prendre une risque</trad>
+               <trad pos="v" level="word" fig="false" register="informal" loc="false" pdc="none"
+                  metaphor="unsure">Se mouiller</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="370">Up to one's neck</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="throat">
+         <exprs>
+            <head>
+               <desc pos="prep" level="phrase"/>
+               <expr p="13">At each other's throats</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="prep" level="phrase" loc="true" fig="true" register="informal">At each
+                  other's throats</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">À
+                  couteaux tirés</trad>
+               <trad pos="v" level="word" loc="false" fig="false" pdc="none" metaphor="unsure">To be
+                  at each other's throats: s'étriper</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="113">Fly at one's throat</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="190">Jump down one's throat</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" register="informal" fig="false" loc="true">Jump down
+                  [sb]'s throat</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Sauter
+                  à la gorge de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="216">Lump in one's throat</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher lump et throat, NON PAS have ! -->
+               <alt search="body-obj" pos="v" level="phrase" fig="true" loc="true">Have a lump in your throat</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Avoir
+                  une boule dans la gorge</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="312">Shove down one's throat or ram down one's throat</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" register="informal" fig="true" loc="true">Ram down [sb]'s
+                  throat</alt>
+               <trad pos="v" level="word" loc="false" fig="false">S'imposer</trad>
+
+               <trad pos="v" level="phrase" loc="true" fig="true" register="informal" pdc="dif"
+                  metaphor="unsure">Faire rentrer [qch] dans la crâne de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="356">Thrust down one's throat or push down one's throat</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="tongue">
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" register="informal"/>
+               <expr p="16">At the tip of one's tongue or on the tip of one's tongue</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher tip et tongue, NON PAS be ! -->
+               <alt search="body-obj" pos="v" level="phrase" loc="true" fig="true">Be on the tip of your tongue</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Avoir
+                  [qch] sur le bout de la langue</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="55">Cat got one's tongue</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher cat et tongue, NON PAS got/get ! -->
+               <!-- If it's designated as a sentence, can we designate it logically as an expression or locution ? -->
+               <alt search="body-head" pos="na" level="sentence" register="informal" fig="true" loc="true">Cat got your
+                  tongue?</alt>
+               <trad pos="na" level="sentence" loc="true" fig="false" pdc="same" metaphor="dif">Tu
+                  as perdu ta langue ?, Tu as avalé ta langue ?</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="109">Find one's tongue</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="165">Hold one's tongue</expr>
+            </head>
+            <entry src-type="word-ref">
+
+               <!-- THE VERY FIRST ENTRY LISTED AS AN IDIOM ON THE WEBSITE ? -->
+               <!-- Chercher bite et tongue, NON PAS hold ! -->
+               <alt search="body-head" pos="v" level="phrase" loc="true" fig="false">Hold your tongue, bite your
+                  tongue</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Tenir
+                  sa langue</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="192">Keep a civil tongue in one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="214">Lose one's tongue</expr>
+            </head>
+         </exprs>
+         <!-- Duplicate -->
+<!--         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="250">On the tip of one's tongue</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Be on the tip of your tongue</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Avoir
+                  [qch] sur le bout de la langue</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="317">Slip of the tongue also slip of the lip</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="n" level="phrase" fig="false" loc="false">Slip of the tongue</alt>
+               <trad pos="n" level="word" loc="false" fig="false">Lapsus</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="literary"/>
+               <expr p="319">Speak with a forked tongue</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher soit speak, soit forked, soit tongue ! -->
+               <alt search="body-head-obj" pos="v" level="phrase" fig="true" loc="true">Speak with a forked tongue</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Mentir</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif"
+                  >Pratiquer la langue de bois</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="tooth">
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="10">Armed to the teeth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="adj" level="phrase" fig="true" loc="false">Armed to the teeth</alt>
+               <trad pos="adj" level="phrase" loc="false" fig="false" pdc="same" metaphor="same"
+                  >Armé jusqu'aux dents</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" multiple="true"/>
+               <expr p="46">By the skin of one's teeth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Chercher skin, NON PAS by NI teeth ! -->
+               <alt search="body" pos="adv" level="phrase" loc="true" fig="false">By the skin of your teeth</alt>
+               <trad pos="adv" loc="true" level="phrase" fig="false" pdc="none" metaphor="unsure">De
+                  justesse</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="77">Cut teeth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="none" pos="v" level="phrase" loc="true" fig="true">Cut your teeth</alt>
+               <trad pos="v" level="phrase" loc="false" fig="true" pdc="same" metaphor="same">Se
+                  faire les dents (sur [qch])</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="113">Fly in the face of or fly in the teeth of</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-head" pos="v" level="phrase" fig="true" loc="true">Fly in the face of [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Aller à l'encontre de</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Contredire</trad>
+               <trad pos="v" level="word" loc="false" fig="false">S'opposer à</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="128">Get one's teeth into or sink one's teeth into</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="true">Sink your teeth into [sth]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">S'attaquer à</trad>
+               <trad pos="v" level="word" loc="false" fig="false">S'intéresser à</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="195">Kick in the pants or kick in the teeth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="n" level="phrase" register="informal" fig="true" loc="false">Kick in the
+                  teeth</alt>
+               <trad pos="n" level="word" loc="false" fig="true" pdc="none" metaphor="dif"
+                  >Gifle</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="208">lie through one's teeth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="head" pos="v" level="phrase" loc="true" fig="false">Lie through your teeth</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">Mentir
+                  comme un arracheur de dents</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" multiple="true"/>
+               <expr p="236">No skin off my nose or no skin off my teeth</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="307">Set one's teeth on edge</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="312">Show one's teeth</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="355">Throw something in someone's face or throw something in one's
+                  teeth</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" multiple="true"/>
+               <expr p="360">Tooth and nail</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="body-is-head-obj" pos="adv" level="phrase" fig="true" loc="true">Tooth and nail</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Bec et
+                  ongles</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="lip">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="31">Bit one's lips</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="45">Button one's lip also zip one's lip</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="bodyMult-head" pos="v" level="phrase" register="slang" fig="true" loc="true">Button your mouth,
+                  button your lip</alt>
+
+               <!-- Le COD fait allusion à la bouche ; similaire métaphore, ou différente ? Même partie du corps, ou pas? -->
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" register="informal"
+                  metaphor="unsure">Se la fermer, la fermer</trad>
+               <trad pos="v" level="phrase" fig="true" loc="true" pdc="none" register="informal"
+                  metaphor="unsure">La boucler</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="192">Keep a stiff upper lip</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Keep a stiff upper lip</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Rester impassible, rester
+                  imperturbable</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="210">lips are sealed SEE MUM IS THE WORD</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="284">Read my lips or mark my words</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="318">Smack one's lips</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="false" loc="true">Smack your lips</alt>
+               <trad pos="v" level="phrase" register="informal" loc="false" fig="false" pdc="same"
+                  metaphor="unsure">Se lécher les babines</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="mouth">
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="35">Born with a silver spoon in one's mouth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" fig="true" loc="false">Born with a silver spoon in your
+                  mouth</alt>
+               <trad pos="adj" level="phrase" fig="true" loc="true" pdc="same" metaphor="dif">Né
+                  avec une cuillière d'argent dans la bouche</trad>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Bien
+                  né</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="47">By word of mouth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="false" loc="false">By word of mouth</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Par le bouche-à-oreille</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="114">Foam at the mouth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Foam at the
+                  mouth, froth at the mouth</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Écumer
+                  de rage</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="189">Jaw drop or jaw drop a mile</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="193">Keep one's mouth shut</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="208">lick one's chops</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Lick your
+                  chops</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">S'en
+                  lécher les babines</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Se
+                  réjouir d'avance (de [qch]), se réjour à l'avance (de [qch])</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="221">Make one's mouth water</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false" register="informal">Make [sb]'s
+                  mouth water</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Mettre
+                  l'eau à la bouche à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="278">Put one's money where one's mouth is</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="na" level="sentence" loc="true" fig="false">Put your money where your mouth
+                  is</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Joindre
+                  le geste et la parole</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Sortir son portefeuille</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Prouver</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="280">Put words into one's mouth</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="310">Shoot off one's mouth or shoot off one's face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Shoot your mouth off</alt>
+
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="false" pdc="none"
+                  metaphor="unsure">L'ouvrir</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="385">Word of mouth</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" loc="false" fig="false">Word of mouth</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false" pdc="same" metaphor="dif">Bouche
+                  à oreille</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="chin">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="193">Keep one's chin up</expr>
+            </head>
+            <entry src-type="word-ref">
+
+               <!-- Sentence, but not locution. are sentences locutions ? -->
+               <alt search="" pos="na" level="sentence" register="informal" fig="true" loc="false">Keep your
+                  chin up</alt>
+
+               <trad pos="v" level="phrase" fig="false" loc="true" pdc="none" metaphor="none">Garder
+                  le morale</trad>
+               <trad pos="v" level="phrase" fig="false" loc="true" pdc="none" metaphor="none">Ne pas
+                  perdre courage</trad>
+               <trad pos="v" level="phrase" fig="false" loc="true" pdc="dif" metaphor="dif">Ne pas
+                  baisser les bras</trad>
+               <trad pos="v" level="phrase" fig="false" loc="true" pdc="none" metaphor="unsure">Ne
+                  pas se laisser abattre</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="341">Take it on the chin</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true" register="informal">Take [sth] on
+                  the chin</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Encaisser [qch] sans broncher</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif"
+                  >Encaisser les coups</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="nose">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" multiple="true"/>
+               <expr p="78">Cut off one's nose to spite one's face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Cut off your nose to spite your
+                  face</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Scier la
+                  branche sur laquelle on est assis</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Se tirer
+                  une balle dans le pied</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Se
+                  punir tout seul</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être
+                  pris à son propre piège</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="114">Follow one's nose</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Follow your nose</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Suivre son odorat</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se fier à son odorat</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="154">Have a nose for</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="193">Keep one's nose clean</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true" register="informal">Keep your nose
+                  clean</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Se
+                  tenir à carreau</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="193">Keep one's nose to the grindstone or have one's nose to the grindstone
+                  or hold one's nose to the grindstone</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Keep your nose to the
+                  grindstone</alt>
+
+               <!-- Y a-t-il une métaphore ici ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif"
+                  >Travailler d'arrache-pied</trad>
+
+               <trad pos="v" level="word" register="informal" loc="false" fig="false"
+                  >Plancher</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="203">Lead by the nose</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Lead [sb] by the nose</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Mener [qqn] par le bout du nez</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Lead [sb] by the nose</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Tromper</trad>
+               <trad pos="v" level="word" loc="false" fig="false">Duper</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="212">Look down one's nose at</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Look down your nost at
+                  [sb/sth]</alt>
+
+               <!-- Y a-t-il une métaphore ici ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Regarder de haut, prendre de haut, traiter de haut</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="236">Nose in a book</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="236">Nose in the air or have one's nose in the air</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" register="informal"/>
+               <expr p="249">On the nose</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" register="informal" fig="true" loc="false">On the nose,
+                  right on the nose</alt>
+               <trad pos="adj" level="word" loc="false" fig="false">Exact, précis, parfait</trad>
+               <trad pos="adv" level="word" loc="false" fig="false">Exactement, précisément,
+                  parfaitement</trad>
+               <!-- Y a-t-il une métaphore ici ? -->
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Dans le mille</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="278">Put one's nose out of joint</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="293">Rub one's nose in something</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="303">See beyond one's nose or see beyond the end of one's nose</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="slang"/>
+               <expr p="316">Skin off one's nose</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="na" level="sentence" multiple="true" loc="true" fig="false">It's not skin
+                  off my back, it's no skin off my nose</alt>
+               <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="dif">Ça
+                  ne me fait ni chaud ni froid</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="364">Turn one's nose up at</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Turn up your nose at [sth], turn
+                  your nose up at [sth]</alt>
+               <!-- Y a-t-il des métaphores ici ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Faire le déogoûté devant [qch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">faire la
+                  fine bouche devant [qch]</trad>
+
+               <trad pos="v" level="word" loc="false" fig="false">Dédaigner</trad>
+               <trad pos="v" level="phrase" loc="false" fig="true" pdc="none" metaphor="dif">Cracher
+                  sur [qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" register="informal"/>
+               <expr p="366">Under one's nose or under the nose of</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" loc="true" fig="false">Under [sb]'s nose, right under
+                  [sb]'s nose</alt>
+
+               <!-- Au lieu d'un étiquete pour désigner ceci comme 'locution', il y a un marqueur 'expression' -->
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Sous
+                  le nez de [qqn]</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="cheek">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="364">Turn the other cheek</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Turn the other cheek</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Tendre
+                  l'autre joue</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="ear">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="26">Bend one's ear</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="42">Bug in one's ear</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Put a bug in [sb]'s ear</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="none">Faire
+                  allusion à [qch] à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="68">Come to the ears of someone</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="96">Ear to the ground</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Have your ear to the ground, keep
+                  your ear to the ground</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Être
+                  aux aguets</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être à
+                  l'écoute</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se tenir informé</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="112">Flea in one's ear</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false" register="informal">Flea in your
+                  ear</alt>
+               <trad pos="n" level="word" register="informal" loc="false" fig="true" pdc="none"
+                  metaphor="dif">Savon</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="124">Get an earful</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Get an
+                  earful</alt>
+
+               <trad pos="v" level="phrase" register="informal" loc="true" fig="true" pdc="same"
+                  metaphor="dif">Se faire tirer les oreilles</trad>
+               <trad pos="v" level="phrase" register="informal" loc="true" fig="true" pdc="none"
+                  metaphor="dif">Se faire remonter les bretelles</trad>
+               <trad pos="v" level="phrase" register="informal" loc="true" fig="true" pdc="none"
+                  metaphor="dif">Se faire sonner les cloches</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="literary"/>
+               <expr p="132">Give an ear to or lend an ear to</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Lend an ear to [sb], lend [sb] an
+                  ear</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Prêter
+                  l'oreille (à [qch]), prêter une oreille (à [qch])</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Prêter
+                  l'attention à [qch/qqqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="139">Go in one ear and out the other</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true" register="informal">Go in one ear
+                  and out the other</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Entrer
+                  par une oreille et sortir par l'autre</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="146">Grin from ear to ear</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="154">Have an ear for</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="156">Have one's ear</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="230">Music to one's ears</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="254">Out of earshot</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" fig="false" loc="false">Out of earshot</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Hors de portée de voix</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="266">Pin one's ears back</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Pin back your
+                  ears, pin your ears back</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">Ouvrir
+                  grand ses oreilles</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="268">Play by ear</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Play it by ear</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Improviser</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="271">Prick up one's ears</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="363">Turn a deaf ear to</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Turn a deaf ear</alt>
+               <!-- S'agit-il de la même métaphore ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Faire la sourde oreille</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Turn a deaf ear to [sb/sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">Ne pas
+                  prêter l'oreille à [qqn/qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="370">Up to one's ears</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="378">Wet behind the ears</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" fig="true" loc="true">Wet behind the ears</alt>
+               <trad pos="v" level="phrase" register="informal" loc="true" fig="false" pdc="none"
+                  metaphor="dif">Être un bleu</trad>
+               <trad pos="v" level="phrase" register="informal" loc="true" fig="false" pdc="dif"
+                  metaphor="dif">Être un blanc-bec</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Être inexpérimenté</trad>
+
+               <!-- Au lieu d'un étiquete pour désigner ceci comme 'locution', il y a un marqueur 'expression' -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Manquer d'expérience</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="eye">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="10">Apple of one's eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" loc="false" fig="false">Apple of [sb]'s eye</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false" pdc="same" metaphor="unsure"
+                  >Prunelle de ses yeux</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal" multiple="true"/>
+               <expr p="22">Bat an eye or bat an eyelash</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true" register="informal">Not bat an
+                  eyelash (US), not bat an eyelid (UK)</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Ne pas
+                  sourciller, ne pas ciller</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="39">Bright-eyed and bushy-tailed</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" register="informal" fig="true" loc="false">Bright eyed
+                  and bushy tailed, bright-eyed and bushy-tailed</alt>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Frais et dispo</trad>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Tout pimpant</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="54">Catch one's eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="62">Close one's eyes or shut one's eyes</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Close your eyes to [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Fermer
+                  les yeux sur [qch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Faire
+                  semblant de ne pas voir</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="101">Eyeball to eyeball</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="101">Eye candy</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="false" loc="false" register="slang">Eye candy</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">[qqn/qch] qui est agréable à
+                  regarder</trad>
+               <trad pos="n" level="phrase" loc="false" fig="false" register="informal">(hommes)
+                  Beaux mecs</trad>
+               <trad pos="n" level="phrase" loc="false" fig="false" register="informal">(femmes)
+                  Belles filles, belles nanas</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal" multiple="true"/>
+               <expr p="101">Eyes are bigger than one's stomach</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal" multiple="true"/>
+               <expr p="101">Eyes in the back of one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="101">Eyes pop out</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="106">Feast one's eyes on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Feast your eyes</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Admirer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="123">Get a black eye</expr>
+            </head>
+
+            <!--          
+           <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="false" loc="false">Black eye</alt>
+               <trad pos="n" level="phrase" fig="false" loc="false" pdc="same" metaphor="unsure">Œil au beurre noir</trad>
+               <trad pos="n" level="word" fig="false" loc="false" register="informal">Coquard, coquart, cocard</trad>
+            </entry>
+          -->
+
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">Black eye</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Mauvaise image, mauvaise
+                  réputation</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="124">Get an eyeful or take an eyeful</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="130">Get the eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="134">Give one the eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="135">Give the glad eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="146">Green-eyed monster</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">The green-eyed monster</alt>
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="same" metaphor="same"
+                  >Monstre aux yeux verts</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="148">Half an eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">See with half an eye, see with half
+                  an eye that</alt>
+
+               <!-- Verbe impersonnel -->
+               <trad pos="v" level="phrase" loc="false" fig="false">Ne pas avoir échapper à
+                  [qqn]</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Sembler évident à [qqn]
+                  que</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="154">Have an eye for</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" loc="true" fig="false">Have an eye
+                  for [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Avoir
+                  le sens du détail</trad>
+
+               <!-- L'une des seules entrées où il n'y a pas de figuration ni de figement attestées, mais où il semble qu'il y ait une métaphore quannd-même... -->
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="same" metaphor="same">Avoir
+                  l'œil pour</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false" register="slang">Have an eye for
+                  [sb]</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Être porté sur</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="154">Have an eye on or have one's eye on</expr>
+            </head>
+            <entry src-type="word-ref">
+
+               <!-- Revenir plus tard pour affiner si nécessaire -->
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Have your eye on [sth]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Convoiter</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Lorgner sur</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Have your eye on [sb]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Surveiller</trad>
+
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="same" metaphor="unsure"
+                  >Avoir à l'œil</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Have your eye on [sth]</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Viser</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Have your eye on doing [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Compter faire [qch]</trad>
+
+               <!-- À affiner -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Avoir dans l'idée de faire [qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="155">Have eyes only for</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" loc="true" fig="false">Only have eyes
+                  for [sb], have eyes only for [sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same"
+                  >N'avoir d'yeux que pour [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="162">Hit between the eyes</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="192">Keep an eye on or keep one's eye on or have one's eye on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false" register="informal">Keep an eye on
+                  [sth/sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Garder
+                  un œil sur [qch]</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Surveiller attentivement,
+                  surveiller de près</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="193">Keep one's eyes peeled or keep one's eyes skimmed</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Keep your eyes peeled</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Ouvrir
+                  l'œil</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="201">Lay eyes on or set eyes on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Set eyes on [sth/sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Poser
+                  les yeux sur [qch/qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="213">Look in the eye or look in the face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Look in the eye</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="same" metaphor="unsure"
+                  >Regarder dans les yeux</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="220">Make eyes at</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="false" loc="true">Make eyes at [sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" register="informal" pdc="same"
+                  metaphor="same">Faire de l'œil à [qqn]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Faire
+                  des œillades à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="226">Meet one's eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="229">More than meets the eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="na" level="sentence" loc="true" fig="false">There is more to [sth] than
+                  meets the eye</alt>
+               <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="dif">Les
+                  apparences sont trompeuses</trad>
+               <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >La réalité est toute autre</trad>
+               <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="none">Il
+                  doit y avoir une autre explication</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="230">Mud in your eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="237">Not to bat an eyelid</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Not bat an
+                  eyelash (US), not bat an eyelid (UK)</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Ne pas
+                  sourciller, ne pas ciller</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="255">Out of the corner of one's eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" loc="false" fig="false">Out of the corner of your
+                  eye</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Du
+                  coin de l'œil</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="274">Pull the wool over one's eyes</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Pull the wool over [sb]'s
+                  eyes</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" register="informal" pdc="none"
+                  metaphor="dif">Rouler dans la farine</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false"
+                  >Embobiner</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="303">See eye to eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">See eye to eye</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Être
+                  d'accord</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="313">Sight for sore eyes</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" loc="true" fig="false">A sight for sore eyes</alt>
+
+               <!-- Ceci est désigné en tant qu'expression, au lieu de locution ! -->
+               <trad pos="n" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">Un
+                  plaisir pour les yeux</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Faire plaisir à [qqn] de voir
+                  [qqh]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="354">Throw dust into one's eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="361">To the eye</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="363">Turn a blind eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Turn a blind eye</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Fermer
+                  les yeux</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Turn a blind eye on [sth], turn a
+                  blind eye to [sth]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Fermer
+                  les yeux sur [qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="372">Visible to the naked eye</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="prep" level="phrase" loc="true" fig="false">To the naked euye</alt>
+               <trad pos="prep" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">À
+                  l'œil nu</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="eyebrow">
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="46">By the sweat of one's brow</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="283">Raise eyebrows</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="false">Raise
+                  eyebrows, raise a few eyebrows</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Faire
+                  froncer des sourcils</trad>
+
+               <trad pos="v" level="word" loc="true" fig="false" pdc="none" metaphor="none">Faire
+                  tiquer</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="face">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="34">Blow up in one's face</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="34">Blue in the face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" fig="true" loc="false" register="informal">Blue in the
+                  face</alt>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Fâché
+                  tout rouge</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="98">Egg on one's face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Have egg on your face</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Avoir l'air fin</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Passer
+                  pour un idiot</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="106">Feed one's face</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="154">Have a long face or have on a long face</expr>
+            </head>
+            <entry src-type="word-ref">
+
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">Long face</alt>
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="false" pdc="dif"
+                  metaphor="unsure">Faire la gueule</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="218">Make a face</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="220">Make faces at</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="276">Put a good face on</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="276">Put a new face on</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="278">Put one's face on</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="286">Red-faced</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" fig="true" loc="false">Red-faced</alt>
+               <trad pos="adj" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Tout
+                  rouge</trad>
+               <trad pos="adj" level="word" loc="false" fig="false">Confus, gêné</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="299">Save face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Save face</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Sauver
+                  la face</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="312">Show one's face</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="328">Stare in the face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" loc="true" fig="true">Stare you in
+                  the face</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="dif" metaphor="dif">Être sous
+                  les yeux</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="335">Stuff one's face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false" register="informal">Stuff your
+                  face</alt>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Se
+                  goinfrer</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false"
+                  >S'empiffrer</trad>
+               <trad pos="v" level="word" loc="false" register="informal" fig="false">Se
+                  bâfrer</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="357">Till one is blue in the face</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adj" level="phrase" register="informal" loc="false" fig="true">Blue in the
+                  face</alt>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Fâché
+                  tout rouge</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" register="informal" fig="true" loc="true">Until you are
+                  blue in the face</alt>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Fâché
+                  tout rouge</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="hair">
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="179">In one's hair</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true" register="informal">Get in [sb]'s
+                  hair, be in [sb]'s hair</alt>
+               <trad pos="v" level="phrase" register="informal" loc="true" fig="false" pdc="dif"
+                  metaphor="dif">Être dans les pattes de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="207">Let one's hair down or let down one's hair</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Let your hair down</alt>
+               <trad pos="v" level="word" loc="false" fig="false">Se détendre</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">Se laisser aller</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="273">Pull one's hair out over or tear one's hair out over</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Tear your hair out</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same"
+                  >S'arracher les cheveux</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="324">Split hairs</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Split hairs</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="unsure"
+                  >Couper les cheveux en quatre</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Chercher
+                  la petite bête</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="head">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="20">Bang one's head against a brick wall</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="31">Bite one's head off</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="44">Bury one's head in the sand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Bury your head in the sand</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="unsure">Faire
+                  l'autriche</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="131">Get through one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="142">Go over one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="144">Go to one's head</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true" register="slang">Go to [sb]'s
+                  head</alt>
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="true" pdc="same"
+                  metaphor="same">Monter à la tête de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="153">Have a big head</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="false" loc="false">Big head</alt>
+               <trad pos="n" level="phrase" register="informal" loc="false" fig="true" pdc="same"
+                  metaphor="same">Grosse tête</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="157">Have rocks in one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="158">Head above water</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Keep your head above water</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Garder
+                  la tête hors de l'eau</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="161">Hide one's head in the sand or bury one's head in the sand or have
+                  one's head in the sand</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Bury your head in the sand</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="unsure">Faire
+                  l'autriche</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="165">Hold one's head high</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="165">Hold one's head up</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="193">Keep one's cool or keep one's head</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Keep your head</alt>
+
+               <!-- le sang est-il une partie du corps ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Garder
+                  son sang froid</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="193">Keep one's head also keep one's wits about one</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Keep your wits about you, have
+                  your wits about you</alt>
+
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Être sur
+                  le qui-vive</trad>
+
+               <trad pos="v" level="phrase" loc="false" fig="false">Être vigilant</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="193">Keep one's head above water</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Keep your head above water</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Garder
+                  la tête hors de l'eau</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="200">Laugh one's head off</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="209">like a hole in the head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="214">Lose one's head (over)</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true">Lose your head</alt>
+
+               <!-- Le sang est-il une partie du corps ? -->
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="dif">Perdre
+                  son sang froid</trad>
+
+               <trad pos="v" level="word" loc="false" fig="false">S'affoler</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="221">Make one's head spin or swim</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Make your head spin</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Donner
+                  le tournis à [qqn]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="none" metaphor="dif">Donner
+                  le vertige à [qqn]</trad>
+
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Faire
+                  tourner la tête de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" pos2="adv" level="phrase" register="informal"/>
+               <expr p="242">Off the top of one's head</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="prep" level="phrase" register="informal" loc="true" fig="true">Off the top
+                  of your head</alt>
+               <trad pos="adv" loc="true" level="phrase" fig="false" pdc="none" metaphor="none"
+                  >Comme ça</trad>
+               <trad pos="adv" loc="true" level="phrase" fig="false" pdc="none" metaphor="none">Sans
+                  réfléchir</trad>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure">De
+                  but en blanc</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" pos2="adj" level="phrase"/>
+               <expr p="257">Over one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="276">Put heads together</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Put your/their/our heads
+                  together</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif"
+                  >Réfléchir ensemble</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Réfléchir à plusieurs</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="276">Put ideas into one's head</expr>
+            </head>
+         </exprs>
+
+         <!-- fucking duplicates -->
+         <!--         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="279">Put their heads together or lay their heads together</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase">Put your/their/our heads together</alt>
+               <trad pos="v" level="phrase" fig="false">Réfléchir ensemble</trad>
+               <trad pos="v" level="phrase" fig="false">Réfléchir à plusieurs</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="301">Scratch one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="301">Scream one's head off or yell one's head off</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Scream your
+                  head off</alt>
+
+               <!-- Don't think this is figurée, c'est compositionnelle  -->
+               <trad pos="v" level="phrase" loc="true" register="informal" fig="false" pdc="none"
+                  metaphor="dif">Crier comme un putois</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Crier
+                  comme un forcené</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Crier
+                  comme un enragé</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="341">Take it into one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="364">Turn one's head</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="371">Use one's head or use one's bean or use one's noodle or use one's
+                  noggin</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="skin">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="131">Get under one's skin</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="155">Have a thick skin</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Have a thick skin</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="same">Avoir
+                  la peau dure</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false"/>
+            </entry>
+         </exprs>
+
+         <!-- Duplicate -->
+         <!--         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="155">Be thick-skinned</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase">Have a thick skin</alt>
+               <trad pos="v" level="phrase" fig="true" pdc="same" metaphor="same">Avoir la peau
+                  dure</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="190">Jump out of one's skin</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="221">Make one's skin crawl</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="false" loc="true">Make [sb]'s skin crawl</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Donner
+                  la chair de poule à [qqn]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" register="informal" pdc="same"
+                  metaphor="dif">Flier la chair de poule à [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="316">Skin flick</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" loc="false" fig="false" register="slang">Skin flick</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false">Film porno</trad>
+               <trad pos="n" level="word" loc="false" fig="false">Porno</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="heart">
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="informal"/>
+               <expr p="4">After one's own heart</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="14">At heart</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" fig="false" loc="false">At heart</alt>
+               <trad pos="adv" level="phrase" loc="false" fig="false">Au fond</trad>
+               <trad pos="adv" level="phrase" loc="false" fig="false">Fondamentalement</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Have [sth] at heart</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Avoir
+                  [qch] à cœur</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="32">Bless one's heart</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="56">Change of heart</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="false" loc="false">Change of heart</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Changer d'avis</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="sentence" register="informal"/>
+               <expr p="75">Cross one's heart or cross one's heart and hope to die</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="na" level="sentence" loc="true" fig="false">Cross my heart, cross my heart
+                  and hope to die</alt>
+               <trad pos="na" level="interjection" loc="false" fig="false">Promis</trad>
+               <trad pos="na" level="interjection" loc="false" fig="false">Juré</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="109">Find it in one's own heart</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="119">From the bottom of one's heart or with all one's heart</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" loc="true" fig="false">From the bottom of [sb]'s
+                  heart</alt>
+               <!-- Désigné comme expression, non pas comme locution -->
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Du
+                  fond du cœur</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="153">Have a heart</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="154">Have a heart-to-heart talk</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="word" loc="false" fig="false">Heart-to-heart</alt>
+               <trad pos="adj" level="phrase" loc="true" fig="false" pdc="same" metaphor="dif">À
+                  cœur ouvert</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="159">Heart bleeds for one</expr>
+            </head>
+            <entry src-type="word-ref">
+               <!-- Are interjections locutions by definition ? -->
+               <alt search="" pos="na" level="sentence" fig="true" loc="false">My heart bleeds for you., My
+                  heart bleeds, How my heart bleeds for you</alt>
+               <trad pos="na" level="interjection" loc="false" register="informal" fig="false">Mon
+                  pauvre !, Ma pauvre !</trad>
+
+               <!-- Not listed as figurée -->
+               <trad pos="na" level="sentence" loc="false" register="informal" fig="true" pdc="same"
+                  metaphor="dif">Tu me fends le cœur !</trad>
+
+               <trad pos="na" level="sentence" loc="false" register="informal" fig="false">Arrête,
+                  tu vas me faire pleurer !</trad>
+               <trad pos="na" level="sentence" loc="false" register="informal" fig="false">Je vais
+                  te plaindre !</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="formal"/>
+               <expr p="159">Heart goes out to</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="159">Heart of gold</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="false">Have a heart of gold</alt>
+               <trad pos="v" level="phrase" loc="true" fig="true" pdc="same" metaphor="dif">Avoir le
+                  cœur sur la main</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="159">Heart of stone</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">Heart of stone</alt>
+
+               <!-- Not listed as figurative, nor a locution, but it's a French word-for-word translation of the figuratively notated English ! -->
+               <trad pos="n" level="phrase" loc="false" fig="false" pdc="same" metaphor="same">Cœur
+                  de pierre</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="159">Heart sink</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="159">Heart stand still</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" multiple="true"/>
+               <expr p="159">Heart in one's mouth or heart in one's boots</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="159">Heart-stopper</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="160">Heavy heart</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="false" loc="false">Heavy heart</alt>
+               <trad pos="n" level="phrase" loc="false" fig="false" pdc="same" metaphor="same">Cœur
+                  lourd</trad>
+
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="same" metaphor="same">Cœur
+                  gros</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" loc="false" fig="false">With a heavy heart</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Le
+                  cœur lourd</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <!-- Not the same expression exactly ? -->
+               <desc pos="v" level="phrase"/>
+               <expr p="237">Not have the heart to</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Have the heart</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Avoir le courage (de [qch])</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="307">Set one's heart on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="true">Set your heart on [sth], have your
+                  heart set on [sth]</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Tenir absolument à [qch]</trad>
+
+               <!-- Définir ce qui constitue la même métaphore ou une différente métaphore ! -->
+               <trad pos="v" level="phrase" loc="true" pdc="same" fig="false" metaphor="unsure"
+                  >Tenir à cœur à [qqn]</trad>
+
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Vouloir absolument [qch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Vouloir [qch] à tout prix</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase"/>
+               <expr p="313">Sick at heart</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+
+               <!-- Revenir, resoudre ces problèmes de duplication -->
+               <expr p="346">Take to heart also lay to heart</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Take [sth] to heart</alt>
+               <!-- Ni locution, ni figurée mais il y a la même métaphore ! -->
+               <trad pos="v" level="phrase" loc="false" fig="false" pdc="same" metaphor="same"
+                  >Prendre au cœur</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="360">To one's heart's content</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" register="informal" fig="true" loc="false">To your
+                  heart's content</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Tant
+                  qu'il vous plaît, tant qu'il te plaît, tant qu'il te plaira, tant qu'il vous
+                  plaira</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="377">Wear one's heart on one's sleeve also pin one's heart on one's
+                  sleeve</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Wear your heart on your
+                  sleeve</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Lire en
+                  [qqn] comme dans un livre ouvert</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="lung">
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="16">At the top of one's voice or at the top of one's lungs</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" loc="true" fig="false">At the top of your lungs</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">À
+                  pleins poumons</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="stomach">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="45">Butterflies in one's stomach</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">Butterflies in the stomach</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure"
+                  >Avoir l'estomac noué</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure"
+                  >Avoir le trac</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="unsure">Être
+                  tout chose</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="364">Turn one's stomach</expr>
+            </head>
+            <entry src-type="word-ref">
+
+               <!-- Designated as a phrasal verb -->
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Turn your stomach</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same"
+                  >Retourner l'estomac</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="389">Yellow-belly</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adj" level="phrase" register="slang"/>
+               <expr p="389">Yellow-bellied</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="blood">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="32">Blood runs cold or blood freezes or blood turns to ice</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Make [sb]'s blood run cold, make
+                  your blood run cold</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">Glacer
+                  le sang de [qqn]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="34">Blue blood</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" loc="false" fig="true">Blue blood</alt>
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="same" metaphor="same">Sang
+                  bleu</trad>
+               <trad pos="n" level="word" loc="false" fig="false">Aristocrate</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase"/>
+               <expr p="176">In cold blood</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="adv" level="phrase" fig="true" loc="false">In cold blood</alt>
+               <trad pos="adv" level="phrase" loc="true" fig="false" pdc="same" metaphor="same">De
+                  sang-froid</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="bone">
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase"/>
+               <expr p="34">Bone of contention</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="n" level="phrase" fig="true" loc="false">Bone of contention</alt>
+
+               <!-- Métaphore différente ? -->
+               <trad pos="n" level="phrase" loc="false" fig="true" pdc="none" metaphor="dif">Pomme
+                  de discorde</trad>
+               <trad pos="n" level="phrase" loc="false" fig="false">Sujet de litige</trad>
+               <trad pos="n" level="phrase" loc="false" fig="false">Sujet de dispute</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="n" level="phrase" register="informal"/>
+               <expr p="34">Bone to pick or crow to pick</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" fig="true" loc="true">Have a bone to
+                  pick with [sb]</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Avoir
+                  une maille à partir avec</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Avoir
+                  un différend avec</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="dif">Avoir
+                  un compte à régler avec</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="77">Cut to the bone</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="106">Feel in one's bones or know in one's bones</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Feel [sth] in your bones</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none">Avoir
+                  l'intime conviction de [qch]</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="156">Have no backbone</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="informal"/>
+               <expr p="221">Make no bones</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" register="informal" loc="true" fig="true">Make no
+                  bones</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">Être franc, être franche</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" fig="true" loc="true" register="informal">Make no bones
+                  about [sth]</alt>
+               <trad pos="v" level="word" fig="false" loc="false">Ne pas cacher</trad>
+               <trad pos="v" level="phrase" fig="false" loc="false">Dire en toute franchise</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="356">Tickle one's funny bone</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="adv" level="phrase" register="informal"/>
+               <expr p="360">To the bone</expr>
+            </head>
+         </exprs>
+      </div>
+      <div type="muscle">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="230">Move a muscle</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="230">Muscle in on</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="false" fig="false">Muscle in</alt>
+               <trad pos="v" level="word" loc="false" fig="false">S'introduire</trad>
+            </entry>
+            <entry src-type="word-ref">
+               <!-- designated as phrasal verb, not locution -->
+               <alt search="" pos="v" level="phrase" loc="true" register="informal" fig="false">Muscle in on
+                  [sth]</alt>
+               <trad pos="v" level="phrase" loc="false" fig="false">S'introduire dans [qch]</trad>
+               <trad pos="v" level="phrase" loc="false" fig="false">S'immiscer dans [qch]</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="none" metaphor="none"
+                  >Essayer de s'imposer dans [qch]</trad>
+            </entry>
+         </exprs>
+      </div>
+      <div type="brain">
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="33">Blow one's brains out</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="128">Get one's brains fried</expr>
+            </head>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="282">Rack one's brain</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase" loc="true" fig="false">Rack your brains, rack your brain,
+                  wrack your brains, wrack your brain</alt>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">Se
+                  creuser la cervelle</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="dif" metaphor="unsure">Se
+                  creuser la téte</trad>
+               <trad pos="v" level="phrase" loc="true" fig="false" pdc="same" metaphor="unsure">Se
+                  creuser les méninges</trad>
+            </entry>
+         </exprs>
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="347">Tax one's brain</expr>
+            </head>
+         </exprs>
+         <!-- Duplicate -->
+         <!--         <exprs>
+            <head>
+               <desc pos="v" level="phrase"/>
+               <expr p="387">Wrack one's brains or beat one's brains</expr>
+            </head>
+            <entry src-type="word-ref">
+               <alt search="" pos="v" level="phrase">Rack your brains, rack your brain, wrack your brains,
+                  wrack your brain</alt>
+               <trad pos="v" level="phrase" fig="true" pdc="same" metaphor="unsure">Se creuser la
+                  cervelle</trad>
+               <trad pos="v" level="phrase" fig="true" pdc="dif" metaphor="unsure">Se creuser la
+                  téte</trad>
+               <trad pos="v" level="phrase" fig="true" pdc="same" metaphor="unsure">Se creuser les
+                  méninges</trad>
+            </entry>
+         </exprs>-->
+         <exprs>
+            <head>
+               <desc pos="v" level="phrase" register="slang"/>
+               <expr p="387">Wrap one's brain or wrap one's mind around something</expr>
+            </head>
+         </exprs>
+      </div>
+   </entries>
+</corpus>
