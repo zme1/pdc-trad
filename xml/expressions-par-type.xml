@@ -21,21 +21,26 @@
       </src>
    </meta>
    <entries>
-      <div type="body">
+      
+      <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+      
+      
+<!--      <div type="body">
          <exprs>
             <head>
                <desc pos="adv" level="interjection"/>
                <expr p="257">Over my dead body!</expr>
             </head>
             <entry src-type="word-ref">
-               <!-- Traiter/classer les interjections comme les locutions ? -->
                <alt search="head" pos="na"  register="slang" fig="true" loc="false">Over my dead body!</alt>
-               <!-- Ceci n'est pas désigné explicitement comme locution -->
                <trad pos="na" loc="false" level="interjection" fig="false" pdc="same"
                   metaphor="unsure">Il faudra me marcher sur le corps!</trad>
             </entry>
          </exprs>
-      </div>
+      </div>-->
+      
+      
+      
       <div type="toe">
          <exprs>
             <head>
@@ -549,7 +554,11 @@
          </exprs>
       </div>
       <div type="leg">
-         <exprs>
+         
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+<!--         <exprs>
             <head>
                <desc level="interjection"/>
                <expr p="37">Break a leg</expr>
@@ -558,7 +567,10 @@
                <alt search="body-head" pos="na"  register="slang" fig="true" loc="false">Break a leg!</alt>
                <trad pos="na" loc="false" level="interjection" fig="false">Merde !</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase" multiple="true"/>
@@ -624,13 +636,16 @@
                   payer la tête de [qqn]</trad>
             </entry>
          </exprs>
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="v" level="phrase" register="slang"/>
                <expr p="308">Shake a leg</expr>
             </head>
             <entry src-type="word-ref">
-               <!-- Ceci n'est pas désigné comme locution -->
                <alt search="body-head" pos="na" loc="false" fig="true" >Shake a leg!</alt>
                <trad pos="v" level="interjection" loc="false" fig="false" register="informal"
                   >Bouge-toi !</trad>
@@ -641,7 +656,11 @@
                <trad pos="v" level="interjection" loc="false" fig="false" register="informal"
                   >Magne-toi !</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -2010,20 +2029,26 @@
                   [qch] sur le bout de la langue</trad>
             </entry>
          </exprs>
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="v" level="phrase"/>
                <expr p="55">Cat got one's tongue</expr>
             </head>
             <entry src-type="word-ref">
-               <!-- Chercher cat et tongue, NON PAS got/get ! -->
-               <!-- If it's designated as a sentence, can we designate it logically as an expression or locution ? -->
                <alt search="body-head" pos="na"  register="informal" fig="true" loc="true">Cat got your
                   tongue?</alt>
                <trad pos="na" level="sentence" loc="true" fig="false" pdc="same" metaphor="dif">Tu
                   as perdu ta langue ?, Tu as avalé ta langue ?</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -2348,7 +2373,11 @@
                   l'eau à la bouche à [qqn]</trad>
             </entry>
          </exprs>
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="v" level="phrase"/>
                <expr p="278">Put one's money where one's mouth is</expr>
@@ -2362,7 +2391,11 @@
                   >Sortir son portefeuille</trad>
                <trad pos="v" level="word" loc="false" fig="false">Prouver</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -2394,14 +2427,16 @@
          </exprs>
       </div>
       <div type="chin">
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="v" level="phrase"/>
                <expr p="193">Keep one's chin up</expr>
             </head>
             <entry src-type="word-ref">
-
-               <!-- Sentence, but not locution. are sentences locutions ? -->
                <alt search="body" pos="na"  register="informal" fig="true" loc="false">Keep your
                   chin up</alt>
 
@@ -2414,7 +2449,11 @@
                <trad pos="v" level="phrase" fig="false" loc="true" pdc="none" metaphor="unsure">Ne
                   pas se laisser abattre</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase" register="informal"/>
@@ -2575,7 +2614,11 @@
                <expr p="303">See beyond one's nose or see beyond the end of one's nose</expr>
             </head>
          </exprs>
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="n" level="phrase" register="slang"/>
                <expr p="316">Skin off one's nose</expr>
@@ -2586,7 +2629,11 @@
                <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="dif">Ça
                   ne me fait ni chaud ni froid</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -3151,13 +3198,16 @@
                <expr p="226">Meet one's eye</expr>
             </head>
          </exprs>
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="adj" level="phrase"/>
                <expr p="229">More than meets the eye</expr>
             </head>
             <entry src-type="word-ref">
-               <!-- Ne chercher que there et more -->
                <alt search="head-other" pos="na"  loc="true" fig="false">There is more to [sth] than
                   meets the eye</alt>
                <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="dif">Les
@@ -3167,7 +3217,11 @@
                <trad pos="na" level="sentence" loc="true" fig="false" pdc="none" metaphor="none">Il
                   doit y avoir une autre explication</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="n" level="phrase" register="informal"/>
@@ -3898,7 +3952,11 @@
                   >Changer d'avis</trad>
             </entry>
          </exprs>
-         <exprs>
+         
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
+<!--         <exprs>
             <head>
                <desc pos="v" level="sentence" register="informal"/>
                <expr p="75">Cross one's heart or cross one's heart and hope to die</expr>
@@ -3909,7 +3967,9 @@
                <trad pos="na" level="interjection" loc="false" fig="false">Promis</trad>
                <trad pos="na" level="interjection" loc="false" fig="false">Juré</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
          <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -3938,6 +3998,8 @@
          
          
          <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
+         
+         
 <!--         <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -3951,21 +4013,19 @@
          </exprs>-->
          
          
+         <!-- CES TERMES CI-DESSOUS NE SONT PAS CONSIDÉRÉS EN S2 EN FONCTION DE LE BUT DU PROJET D'ÉTUDIER LA PHRASÉOLOGIE -->
          
-         <exprs>
+         
+ <!--        <exprs>
             <head>
                <desc pos="v" level="phrase"/>
                <expr p="159">Heart bleeds for one</expr>
             </head>
             <entry src-type="word-ref">
-               <!-- Are interjections locutions by definition ? -->
-               <!-- SEULEMENT MY ??? -->
                <alt search="other" pos="na"  fig="true" loc="false">My heart bleeds for you., My
                   heart bleeds, How my heart bleeds for you</alt>
                <trad pos="na" level="interjection" loc="false" register="informal" fig="false">Mon
                   pauvre !, Ma pauvre !</trad>
-
-               <!-- Not listed as figurée -->
                <trad pos="na" level="sentence" loc="false" register="informal" fig="true" pdc="same"
                   metaphor="dif">Tu me fends le cœur !</trad>
 
@@ -3974,7 +4034,11 @@
                <trad pos="na" level="sentence" loc="false" register="informal" fig="false">Je vais
                   te plaindre !</trad>
             </entry>
-         </exprs>
+         </exprs>-->
+         
+         
+         
+         
          <exprs>
             <head>
                <desc pos="n" level="phrase" register="formal"/>
