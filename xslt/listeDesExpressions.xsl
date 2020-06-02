@@ -81,6 +81,9 @@
                 <xsl:when test="@metaphor='unsure'">
                     <xsl:text>Incertain</xsl:text>
                 </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>Non</xsl:text>
+                </xsl:otherwise>
             </xsl:choose>
             <xsl:text>&#xa;</xsl:text>
         </xsl:for-each>
