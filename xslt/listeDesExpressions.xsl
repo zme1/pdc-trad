@@ -58,6 +58,15 @@
                     <xsl:text>, loc.)</xsl:text>
                 </xsl:when>
             </xsl:choose>
+            <xsl:if test="preceding-sibling::alt/@register and not(preceding-sibling::alt/@note)">
+                <xsl:text> (</xsl:text><xsl:value-of select="preceding-sibling::alt/@register"/><xsl:text>)</xsl:text>
+            </xsl:if>
+            <xsl:if test="preceding-sibling::alt/@register and preceding-sibling::alt/@note">
+                <xsl:text> (</xsl:text><xsl:value-of select="preceding-sibling::alt/@register"/><xsl:text>, </xsl:text><xsl:value-of select="preceding-sibling::alt/@note"/><xsl:text>)</xsl:text>
+            </xsl:if>
+            <xsl:if test="not(preceding-sibling::alt/@register) and preceding-sibling::alt/@note">
+                <xsl:text> (</xsl:text><xsl:value-of select="preceding-sibling::alt/@note"/><xsl:text>)</xsl:text>
+            </xsl:if>
             <xsl:text>&#x9;</xsl:text>
             <xsl:choose>
                 <xsl:when test="@pdc = 'same'">
