@@ -386,13 +386,6 @@
          </exprs>
          <exprs>
             <head>
-               <desc pos="v" level="phrase"/>
-               <expr p="373">Vote with one's feet</expr>
-            </head>
-            <!-- Plein de traductions ; revenir après avoir contacté M. Rey -->
-         </exprs>
-         <exprs>
-            <head>
                <desc pos="v" level="phrase" multiple="true"/>
                <expr p="374">Wait on hand and foot</expr>
             </head>
@@ -412,7 +405,6 @@
             </head>
             <entry src-type="word-ref">
                <alt search="body-head" pos="n"  idiom="none" fig="true">Achilles' heel</alt>
-               <!-- Très frappant que cette entrée n'est pas désignée comme figurée !!!!! -->
                <trad pos="n" level="phrase" idiom="none" fig="false" pdc="same" metaphor="same">Talon
                   d'Achille</trad>
             </entry>
@@ -580,7 +572,6 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="v"  register="argotique" fig="true" idiom="loc">Cost an arm and a
                   leg</alt>
-               <!-- The metaphor is mostly the same, excluded the leg from the English expression -->
                <trad pos="v" level="phrase" idiom="loc" fig="true" register="informel" pdc="same"
                   metaphor="same">Coûter un bras</trad>
 
@@ -630,7 +621,6 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="v"  fig="true" idiom="loc" register="informel">Pull [sb]'s
                   leg</alt>
-               <!-- Ceux-ci ne sont pas désignés explicitement comme locutions -->
                <trad pos="v" level="phrase" idiom="none" fig="true" pdc="none" metaphor="dif">Faire
                   marcher</trad>
                <trad pos="v" level="phrase" idiom="none" fig="false" pdc="dif" metaphor="dif">Se
@@ -1082,7 +1072,7 @@
                   your fingers burnt (UK), burn your fingers</alt>
                <!-- S'agit-il de la même métaphore ? -->
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" metaphor="unsure"
-                  >Avoir été échaude</trad>
+                  >Avoir été échaudé</trad>
             </entry>
          </exprs>
          <exprs>
@@ -1266,10 +1256,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="adj"  idiom="none" fig="true">Close at hand</alt>
                <trad pos="adj" level="word" idiom="none" fig="false">Proche, imminent</trad>
-
-               <!-- Makes little sense, this translation -->
                <trad pos="v" level="word" idiom="none" fig="false">Approcher</trad>
-
                <trad pos="adv" level="phrase" idiom="none" fig="false">Tout près</trad>
                <trad pos="prep" level="phrase" idiom="loc" fig="true" pdc="none" metaphor="dif">À
                   notre porte</trad>
@@ -1838,7 +1825,6 @@
                <expr p="311">Shoulder to cry on or to lean on</expr>
             </head>
             <entry src-type="word-ref">
-               <!-- Comment désigné ce syntagme enchassé ? dans l'attribute @search -->
                <alt search="bodyHead-other" pos="n"  idiom="none" fig="true">A shoulder to cry on</alt>
                <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" metaphor="same">Une
                   épaule sur laquelle pleurer</trad>
@@ -2061,10 +2047,8 @@
                <expr p="165">Hold one's tongue</expr>
             </head>
             <entry src-type="word-ref">
-
-               <!-- THE VERY FIRST ENTRY LISTED AS AN IDIOM ON THE WEBSITE ? -->
                <!-- Chercher bite et tongue, NON PAS hold ! -->
-               <alt search="body-head" pos="v"  idiom="loc" fig="false">Hold your tongue, bite your
+               <alt search="body-head" pos="v"  idiom="idiom" fig="false">Hold your tongue, bite your
                   tongue</alt>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" metaphor="same">Tenir
                   sa langue</trad>
@@ -2252,7 +2236,6 @@
             <entry src-type="word-ref">
                <alt search="bodyMult-head" pos="v"  register="argotique" fig="true" idiom="loc">Button your mouth,
                   button your lip</alt>
-
                <!-- Le COD fait allusion à la bouche ; similaire métaphore, ou différente ? Même partie du corps, ou pas? -->
                <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="none" register="informel"
                   metaphor="unsure">Se la fermer, la fermer</trad>
@@ -2532,7 +2515,6 @@
                <!-- Y a-t-il une métaphore ici ? -->
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="dif" metaphor="dif"
                   >Travailler d'arrache-pied</trad>
-
                <trad pos="v" level="word" register="informel" idiom="none" fig="false"
                   >Plancher</trad>
             </entry>
