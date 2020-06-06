@@ -36,4 +36,4 @@ idiom = attribute idiom {"loc" | "none" | "idiom" | "loc-prep" | "expr" }
 fig = attribute fig { "true" | "false" }
 eval = "same" | "dif" | "none"
 pdc = attribute pdc { "same" | "dif" | "none" }
-conven = attribute conven { "similar" | "dif" | "unsure" | "none" }
+conven = attribute conven { "same" | "similar" | "dif" | "unsure" | "none" }

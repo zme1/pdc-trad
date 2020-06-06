@@ -159,7 +159,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="none" pos="n"  idiom="none" fig="true">Feet of clay</alt>
-               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" conven="similar">Pieds
+               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" conven="same">Pieds
                   d'argile</trad>
             </entry>
          </exprs>
@@ -170,7 +170,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="none" pos="v" idiom="loc" fig="false" >Have your feet on the ground</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Avoir
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Avoir
                   les pieds sur terre</trad>
             </entry>
          </exprs>
@@ -232,7 +232,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="body-other" pos="v" fig="true" idiom="loc" >Have one foot in the grave</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Avoir
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Avoir
                   un pied dans la tombe</trad>
             </entry>
          </exprs>
@@ -266,7 +266,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="v" fig="false" idiom="loc" >Play footsie with [sb], play
                   footsies with [sb]</alt>
-               <!-- S'agit-il de la même métaphore ? -->
+               <!-- S'agit-il de la même signification conventionalisé ? -->
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Faire
                   du pied à [qqn]</trad>
             </entry>
@@ -294,7 +294,7 @@
             <entry src-type="word-ref">
                <alt search="body" pos="v"  idiom="loc" fig="true" register="informel">Put your foot
                   down</alt>
-               <!-- Métaphorique ? -->
+               <!-- Conventionalité ? -->
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="none">Faire
                   acte d'autorité</trad>
 
@@ -407,7 +407,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="body-head" pos="n"  idiom="none" fig="true">Achilles' heel</alt>
-               <trad pos="n" level="phrase" idiom="none" fig="false" pdc="same" conven="similar">Talon
+               <trad pos="n" level="phrase" idiom="none" fig="false" pdc="same" conven="same">Talon
                   d'Achille</trad>
             </entry>
          </exprs>
@@ -540,8 +540,9 @@
             </head>
             <entry src-type="word-ref">
                <alt search="none" pos="adv" fig="true" idiom="none" >On your knees</alt>
-               <trad pos="adv" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Sur
+               <trad pos="adv" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Sur
                   les genoux</trad>
+               <!-- La conventionalité ici, similaire ou exacte ? -->
                <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">À
                   genoux</trad>
                <trad pos="adv" level="phrase" idiom="loc" register="informel" fig="true" pdc="same"
@@ -715,7 +716,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="n"  register="argotique" fig="false" idiom="none">Booty call</alt>
                <trad pos="n" level="phrase" idiom="none" fig="true" note="vulgaire" pdc="same"
-                  conven="dif">Plan cul</trad>
+                  conven="similar">Plan cul</trad>
             </entry>
          </exprs>
          <exprs>
@@ -920,7 +921,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="head" pos="n"  fig="true" idiom="none">Pat on the back</alt>
-               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" conven="similar">Tape
+               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" conven="same">Tape
                   dans le dos</trad>
                <trad pos="n" level="word" idiom="none" fig="false">Félicitations</trad>
                <trad pos="n" level="word" idiom="none" fig="false">Compliments</trad>
@@ -945,7 +946,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="none" pos="v" idiom="none" fig="false" >Turn your back on [sb/sth]</alt>
-               <trad pos="v" level="phrase" idiom="loc-prep" fig="false" pdc="same" conven="similar"
+               <trad pos="v" level="phrase" idiom="loc-prep" fig="false" pdc="same" conven="same"
                   >Tourner le dos à [qqn]</trad>
             </entry>
          </exprs>
@@ -1063,7 +1064,7 @@
             <entry src-type="word-ref">
                <alt search="none" pos="adv"  fig="true" idiom="loc">At your fingertips</alt>
                <!-- sens métaphorique ? -->
-               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="dif" conven="unsure">À
+               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="dif" conven="similar">À
                   portée de main</trad>
             </entry>
          </exprs>
@@ -1076,7 +1077,7 @@
                <alt search="head-other" pos="v"  fig="true" idiom="loc">Get your fingers burned (US), get
                   your fingers burnt (UK), burn your fingers</alt>
                <!-- S'agit-il de la même métaphore ? -->
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="unsure"
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="similar"
                   >Avoir été échaudé</trad>
             </entry>
          </exprs>
@@ -1140,9 +1141,9 @@
             </head>
             <entry src-type="word-ref">
                <alt search="head" pos="v"  idiom="loc" fig="true">Slip through [sb]'s fingers</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Filer
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Filer
                   entre les doigts de [qqn]</trad>
-               <trad pos="v" level="phrase" fig="true" idiom="loc" pdc="same" conven="similar">Glisser
+               <trad pos="v" level="phrase" fig="true" idiom="loc" pdc="same" conven="same">Glisser
                   entre les doigts de [qqn]</trad>
             </entry>
          </exprs>
@@ -1183,8 +1184,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="v"  fig="true" idiom="loc">Grease [sb]'s palm, grease the palm
                   of [sb], grease [sb]'s hand, grease the hand of [sb]</alt>
-               <!-- S'agit-il de la même métaphore ? -->
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="dif" conven="unsure"
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="dif" conven="similar"
                   >Graisser la patte de [qqn]</trad>
             </entry>
          </exprs>
@@ -1281,15 +1281,16 @@
             <entry src-type="word-ref">
                <alt search="bodyHead-other" pos="adv"  idiom="loc" fig="true">Hand in glove also US: hand and
                   glove (in partnership)</alt>
-               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="dif">Main
+               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Main
                   dans la main</trad>
+               <!-- PAS DE CONVENTION ? -->
                <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="none" conven="dif">De
                   concert</trad>
             </entry>
             <entry src-type="word-ref">
                <alt search="bodyHead-other" pos="adv"  idiom="none" fig="true">Hand in glove with [sb/sth],
                   also US: hand and glove with [sb/sth] (in partnership)</alt>
-               <trad pos="adv" level="phrase" idiom="none" fig="false" pdc="same" conven="dif">Main
+               <trad pos="adv" level="phrase" idiom="none" fig="false" pdc="same" conven="similar">Main
                   dans la main avec [qqn/qqch]</trad>
             </entry>
 
@@ -1400,7 +1401,7 @@
             <entry src-type="word-ref">
                <alt search="head" pos="v"  fig="true" idiom="loc">Join hands, join hands with
                   [sb]</alt>
-               <trad pos="v" level="phrase" idiom="none" fig="false" pdc="same" conven="dif">Agir
+               <trad pos="v" level="phrase" idiom="none" fig="false" pdc="same" conven="similar">Agir
                   main dans la main [avec qqn]</trad>
                <trad pos="v" level="phrase" idiom="none" fig="false" pdc="same" conven="dif">Se
                   donner la main</trad>
@@ -1420,7 +1421,7 @@
             <entry src-type="word-ref">
                <alt search="head" pos="v"  register="informel" idiom="loc" fig="true">Lay your hands
                   on [sth], lay hands on [sth]</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Mettre
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Mettre
                   la main sur [qqch]</trad>
             </entry>
          </exprs>
@@ -1549,7 +1550,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="none" pos="n"  fig="false" idiom="none">Right-hand man</alt>
-               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="dif" conven="dif">Bras
+               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="dif" conven="similar">Bras
                   droit</trad>
             </entry>
          </exprs>
@@ -1564,7 +1565,8 @@
                <trad pos="v" level="word" idiom="none" fig="false">Convenir de</trad>
             </entry>
          </exprs>
-         <exprs>
+         <!-- Not this year.. -->
+ <!--        <exprs>
             <head>
                <desc pos="n" level="phrase"/>
                <expr p="312">Show of hands</expr>
@@ -1582,7 +1584,7 @@
                <alt search="head" pos="n"  fig="false" idiom="none">Vote by a show of hands</alt>
                <trad pos="n" level="phrase" idiom="none" fig="false">Vote à main levée</trad>
             </entry>
-         </exprs>
+         </exprs>-->
          <exprs>
             <head>
                <desc pos="v" level="phrase"/>
@@ -1644,7 +1646,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="head" pos="v"  idiom="loc" fig="true">Wash your hands of [sth]</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Se
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Se
                   laver les mains de [qqch]</trad>
             </entry>
          </exprs>
@@ -1656,7 +1658,7 @@
             <entry src-type="word-ref">
                <alt search="head" pos="v"  idiom="loc" fig="true" register="informel">Win hands
                   down</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="unsure"
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="dif"
                   >Gagner haut la main</trad>
                <trad pos="v" level="phrase" idiom="loc" register="informel" fig="true" pdc="dif"
                   conven="dif">Gagner les doigts dans le nez</trad>
@@ -1678,9 +1680,9 @@
             <entry src-type="word-ref">
                <alt search="bodyHead" pos="v"  fig="true" idiom="none" register="informel">Elbow your way
                   in, elbow in</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="dif">Jouer
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Jouer
                   des coudes pour entrer quelque part</trad>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="dif">Entrer
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Entrer
                   en jouant des coudes</trad>
             </entry>
          </exprs>
@@ -1794,9 +1796,9 @@
                <!-- Chercher head, NON PAS shoulders NI be ! -->
                <alt search="body" pos="v"  fig="true" idiom="loc">Be head and shoulders above
                   [sb/sth], stand head and shoulders above [sb/sth]</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="unsure">Être
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="dif">Être
                   largement au-dessus de [qqn/qch]</trad>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="unsure"
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="dif"
                   >Dépasser largement le niveau de [qqn/qch]</trad>
             </entry>
          </exprs>
@@ -1952,8 +1954,7 @@
                   other's throats</alt>
                <trad pos="adv" level="phrase" idiom="loc" fig="true" pdc="none" conven="dif">À
                   couteaux tirés</trad>
-               <trad pos="v" level="word" idiom="none" fig="false" pdc="none" conven="unsure">To be
-                  at each other's throats: s'étriper</trad>
+               <trad pos="v" level="word" idiom="none" fig="false" pdc="none" conven="unsure">S'étriper</trad>
             </entry>
          </exprs>
          <exprs>
@@ -1970,7 +1971,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="v"  register="informel" fig="false" idiom="loc">Jump down
                   [sb]'s throat</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Sauter
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Sauter
                   à la gorge de [qqn]</trad>
             </entry>
          </exprs>
@@ -1982,7 +1983,7 @@
             <entry src-type="word-ref">
                <!-- Chercher lump et throat, NON PAS have ! -->
                <alt search="body-other" pos="v"  fig="true" idiom="loc">Have a lump in your throat</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Avoir
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Avoir
                   une boule dans la gorge</trad>
             </entry>
          </exprs>
@@ -1997,7 +1998,7 @@
                <trad pos="v" level="word" idiom="none" fig="false">S'imposer</trad>
 
                <trad pos="v" level="phrase" idiom="loc" fig="true" register="informel" pdc="dif"
-                  conven="unsure">Faire rentrer [qch] dans la crâne de [qqn]</trad>
+                  conven="dif">Faire rentrer [qch] dans la crâne de [qqn]</trad>
             </entry>
          </exprs>
          <exprs>
@@ -2016,7 +2017,7 @@
             <entry src-type="word-ref">
                <!-- Chercher tip et tongue, NON PAS be ! -->
                <alt search="body-other" pos="v"  idiom="loc" fig="true">Be on the tip of your tongue</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Avoir
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Avoir
                   [qch] sur le bout de la langue</trad>
             </entry>
          </exprs>
@@ -2055,7 +2056,7 @@
                <!-- Chercher bite et tongue, NON PAS hold ! -->
                <alt search="body-head" pos="v"  idiom="idiom" fig="false">Hold your tongue, bite your
                   tongue</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Tenir
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Tenir
                   sa langue</trad>
             </entry>
          </exprs>
@@ -2115,7 +2116,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="head" pos="adj"  fig="true" idiom="none">Armed to the teeth</alt>
-               <trad pos="adj" level="phrase" idiom="none" fig="false" pdc="same" conven="similar"
+               <trad pos="adj" level="phrase" idiom="none" fig="false" pdc="same" conven="same"
                   >Armé jusqu'aux dents</trad>
             </entry>
          </exprs>
@@ -2127,7 +2128,7 @@
             <entry src-type="word-ref">
                <!-- Chercher skin, NON PAS by NI teeth ! -->
                <alt search="body" pos="adv"  idiom="loc" fig="false">By the skin of your teeth</alt>
-               <trad pos="adv" idiom="loc" level="phrase" fig="false" pdc="none" conven="unsure">De
+               <trad pos="adv" idiom="loc" level="phrase" fig="false" pdc="none" conven="dif">De
                   justesse</trad>
             </entry>
          </exprs>
@@ -2149,7 +2150,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="body-head" pos="v"  fig="true" idiom="loc">Fly in the face of [sth]</alt>
-               <trad pos="v" level="phrase" idiom="loc-prep" fig="false" pdc="none" conven="unsure"
+               <trad pos="v" level="phrase" idiom="loc-prep" fig="false" pdc="none" conven="dif"
                   >Aller à l'encontre de</trad>
                <trad pos="v" level="word" idiom="none" fig="false">Contredire</trad>
                <trad pos="v" level="word" idiom="none" fig="false">S'opposer à</trad>
@@ -3344,7 +3345,7 @@
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Faire
                   froncer des sourcils</trad>
 
-               <trad pos="v" level="word" idiom="loc" fig="false" pdc="none" conven="none">Faire
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="none">Faire
                   tiquer</trad>
             </entry>
          </exprs>
