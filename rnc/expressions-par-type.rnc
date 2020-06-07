@@ -34,6 +34,5 @@ search = attribute search { "body" | "head" | "other" | "body-head" |"body-other
 trad = element trad { pos , pos2? , level , idiom , fig , register?, note? , pdc? , conven? , text }
 idiom = attribute idiom {"loc" | "none" | "idiom" | "loc-prep" | "expr" }
 fig = attribute fig { "true" | "false" }
-eval = "same" | "dif" | "none"
 pdc = attribute pdc { "same" | "dif" | "none" }
-conven = attribute conven { "same" | "similar" | "dif" | "unsure" | "none" }
+conven = attribute conven { "same" | "similar" | "dif" | "unsure" | "compositional" }
