@@ -2054,7 +2054,7 @@
             </head>
             <entry src-type="word-ref">
                <!-- Chercher bite et tongue, NON PAS hold ! -->
-               <alt search="body-head" pos="v"  idiom="idiom" fig="false">Hold your tongue, bite your
+               <alt search="body-head" pos="v"  idiom="loc" fig="false" note="idiom">Hold your tongue, bite your
                   tongue</alt>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Tenir
                   sa langue</trad>
