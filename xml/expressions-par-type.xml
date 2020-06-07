@@ -665,7 +665,7 @@
                <alt search="body" pos="v"  idiom="loc" fig="false" register="informel">Stretch your
                   legs</alt>
                <!-- sens métaphorique ? -->
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">Se
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Se
                   dégourdir les jambes</trad>
             </entry>
          </exprs>
@@ -1833,7 +1833,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="bodyHead-other" pos="n"  idiom="none" fig="true">A shoulder to cry on</alt>
-               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" conven="similar">Une
+               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="same" conven="same">Une
                   épaule sur laquelle pleurer</trad>
             </entry>
          </exprs>
@@ -2737,7 +2737,7 @@
                <alt search="body-head" pos="v"  fig="true" idiom="loc">Lend an ear to [sb], lend [sb] an
                   ear</alt>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">Prêter
-                  l'oreille (à [qch]), prêter une oreille (à [qch])</trad>
+                  l'oreille (à [qch]), prêter une oreille [adj] (à [qch])</trad>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="dif">Prêter
                   l'attention à [qch/qqqn]</trad>
             </entry>

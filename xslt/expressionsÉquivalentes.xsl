@@ -17,13 +17,13 @@ and operate with the same conventionalized meaning -->
             <xsl:value-of select="preceding-sibling::alt/@pos"/>
             <xsl:choose>
                 <xsl:when test="preceding-sibling::alt[@idiom='loc' and @fig='true']">
-                    <xsl:text>, expr, fig)</xsl:text>
+                    <xsl:text>, loc., fig.)</xsl:text>
                 </xsl:when>
                 <xsl:when test="preceding-sibling::alt[@idiom='loc' and @fig='false']">
-                    <xsl:text>, expr)</xsl:text>
+                    <xsl:text>, loc.)</xsl:text>
                 </xsl:when>
                 <xsl:when test="preceding-sibling::alt[@idiom='none' and @fig='true']">
-                    <xsl:text>, fig)</xsl:text>
+                    <xsl:text>, fig.)</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:text>)</xsl:text>
@@ -35,13 +35,13 @@ and operate with the same conventionalized meaning -->
             <xsl:value-of select="@pos"/>
             <xsl:choose>
                 <xsl:when test="@idiom='loc' and @fig='true'">
-                    <xsl:text>, expr, fig)</xsl:text>
+                    <xsl:text>, loc., fig.)</xsl:text>
                 </xsl:when>
                 <xsl:when test="@idiom='loc' and @fig='false'">
-                    <xsl:text>, expr)</xsl:text>
+                    <xsl:text>, loc.)</xsl:text>
                 </xsl:when>
                 <xsl:when test="@idiom='none' and @fig='true'">
-                    <xsl:text>, fig)</xsl:text>
+                    <xsl:text>, fig.)</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:text>)</xsl:text>
