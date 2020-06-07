@@ -543,7 +543,7 @@
                <trad pos="adv" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Sur
                   les genoux</trad>
                <!-- La conventionalité ici, similaire ou exacte ? -->
-               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">À
+               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">À
                   genoux</trad>
                <trad pos="adv" level="phrase" idiom="loc" register="informel" fig="true" pdc="same"
                   conven="similar">Sur les rotules</trad>
@@ -1044,7 +1044,7 @@
             <entry src-type="word-ref">
                <alt search="head" pos="v"  fig="true" idiom="loc" register="informel">Twiddle your
                   thumbs</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="similar">Se
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="same" conven="same">Se
                   tourner les pouces</trad>
             </entry>
          </exprs>
@@ -1076,7 +1076,6 @@
             <entry src-type="word-ref">
                <alt search="head-other" pos="v"  fig="true" idiom="loc">Get your fingers burned (US), get
                   your fingers burnt (UK), burn your fingers</alt>
-               <!-- S'agit-il de la même métaphore ? -->
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="similar"
                   >Avoir été échaudé</trad>
             </entry>
@@ -1735,7 +1734,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="none" pos="adv"  idiom="none" fig="true">With open arms</alt>
-               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">À
+               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">À
                   bras ouverts</trad>
             </entry>
          </exprs>
@@ -2751,7 +2750,7 @@
                <!-- Chercher one, ear et other, NON PAS go ! -->
                <alt search="body-other" pos="v"  idiom="loc" fig="true" register="informel">Go in one ear
                   and out the other</alt>
-               <trad pos="v" level="phrase" idiom="expr" fig="false" pdc="same" conven="similar">Entrer
+               <trad pos="v" level="phrase" idiom="expr" fig="false" pdc="same" conven="same">Entrer
                   par une oreille et sortir par l'autre</trad>
             </entry>
          </exprs>
