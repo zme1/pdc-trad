@@ -2,8 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="text" encoding="UTF-8" indent="yes"/>
-    <!-- This file creates a .tsv file which will present all entries where the English and
-French expressions have entirely different conventionalized meaning. -->
+    <!-- This file creates a .tsv file which will present all entries where the French
+    expressions provided are entirely compositional, with no perceived conventionalized
+    meaning. -->
     <xsl:template match="/">
         <xsl:text>Expression anglaise</xsl:text>
         <xsl:text>&#x9;</xsl:text>
@@ -11,7 +12,7 @@ French expressions have entirely different conventionalized meaning. -->
         <xsl:text>&#x9;</xsl:text>
         <xsl:text>Partie du corps</xsl:text>
         <xsl:text>&#xa;</xsl:text>
-        <xsl:for-each select="descendant::trad[@conven='dif']">
+        <xsl:for-each select="descendant::trad[@conven='compositional' or not(@conven)]">
             <xsl:value-of select="normalize-space(preceding-sibling::alt)"/>
             <xsl:text> (</xsl:text>
             <xsl:value-of select="preceding-sibling::alt/@pos"/>

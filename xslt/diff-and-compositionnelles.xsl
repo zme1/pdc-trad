@@ -3,15 +3,18 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="text" encoding="UTF-8" indent="yes"/>
     <!-- This file creates a .tsv file which will present all entries where the English and
-French expressions have entirely different conventionalized meaning. -->
+French expressions have entirely different conventional meaning, or the provided translation
+    is compositional -->
     <xsl:template match="/">
         <xsl:text>Expression anglaise</xsl:text>
         <xsl:text>&#x9;</xsl:text>
         <xsl:text>Expression française</xsl:text>
         <xsl:text>&#x9;</xsl:text>
         <xsl:text>Partie du corps</xsl:text>
+        <xsl:text>&#x9;</xsl:text>
+        <xsl:text>Signification conventionnalisée</xsl:text>
         <xsl:text>&#xa;</xsl:text>
-        <xsl:for-each select="descendant::trad[@conven='dif']">
+        <xsl:for-each select="descendant::trad[@conven='dif' or @conven='compositional' or not(@conven)]">
             <xsl:value-of select="normalize-space(preceding-sibling::alt)"/>
             <xsl:text> (</xsl:text>
             <xsl:value-of select="preceding-sibling::alt/@pos"/>
@@ -90,6 +93,15 @@ French expressions have entirely different conventionalized meaning. -->
                 <xsl:otherwise>
                     <xsl:text>Non</xsl:text>
                 </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>&#x9;</xsl:text>
+            <xsl:choose>
+                <xsl:when test="@conven='compositional' or not(@conven)">
+                    <xsl:text>Signification compositionnelle</xsl:text>
+                </xsl:when>
+                <xsl:when test="@conven='dif'">
+                    <xsl:text>Oui, mais totalement différente</xsl:text>
+                </xsl:when>
             </xsl:choose>
             <xsl:text>&#xa;</xsl:text>
         </xsl:for-each>
