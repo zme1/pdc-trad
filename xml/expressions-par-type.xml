@@ -2265,7 +2265,7 @@
             <entry src-type="word-ref">
                <alt search="head" pos="v"  fig="false" idiom="loc" search-words="smack">Smack your lips</alt>
                <trad pos="v" level="phrase" register="informel" idiom="none" fig="false" pdc="same"
-                  conven="unsure">Se lécher les babines</trad>
+                  conven="similar">Se lécher les babines</trad>
             </entry>
          </exprs>
       </div>
@@ -2327,7 +2327,7 @@
             <entry src-type="word-ref">
                <alt search="head" pos="v"  register="informel" fig="true" idiom="loc" search-words="lick">Lick your
                   chops</alt>
-               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="similar">S'en
+               <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="same" conven="same">S'en
                   lécher les babines</trad>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="compositional">Se
                   réjouir d'avance (de [qch]), se réjour à l'avance (de [qch])</trad>
@@ -2731,7 +2731,7 @@
             <entry src-type="word-ref">
                <alt search="body-other" pos="v"  idiom="loc" fig="true" register="informel" search-words="one ear other">Go in one ear
                   and out the other</alt>
-               <trad pos="v" level="phrase" idiom="expr" fig="false" pdc="same" conven="same">Entrer
+               <trad pos="v" level="phrase" idiom="expr" fig="false" pdc="same" conven="similar">Entrer
                   par une oreille et sortir par l'autre</trad>
             </entry>
          </exprs>
