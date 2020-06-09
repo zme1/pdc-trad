@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../rnc/expressions-par-type.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../rnc/expressions-par-type.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- sens métaphorique ? -->
-<!-- Search ^^ to see all elements whose metaphorical meaning is in question. -->
 <corpus>
    <meta>
       <src type="idiom-dic">
