@@ -9,7 +9,7 @@
         <xsl:text>&#x9;</xsl:text>
         <xsl:text>Partie du corps</xsl:text>
         <xsl:text>&#x9;</xsl:text>
-        <xsl:text>Signification conventionnalisé</xsl:text>
+        <xsl:text>Signification conventionnalisée</xsl:text>
         <xsl:text>&#xa;</xsl:text>
         <xsl:for-each select="descendant::trad">
             <xsl:value-of select="normalize-space(preceding-sibling::alt)"/>
