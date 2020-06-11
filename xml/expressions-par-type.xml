@@ -589,7 +589,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="v"  idiom="loc" fig="true" register="informel" search-words="get leg">Get a leg
                   up</alt>
-               <trad pos="v " level="phrase" idiom="loc" fig="true" pdc="none" conven="dif">Prendre
+               <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="none" conven="dif">Prendre
                   une longeur d'avance</trad>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="unsure"
                   >Prendre le dessus</trad>
@@ -1257,7 +1257,7 @@
                <alt search="body-head" pos="adj"  idiom="none" fig="true" search-words="close hand">Close at hand</alt>
                <trad pos="adj" level="word" idiom="none" fig="false">Proche, imminent</trad>
                <trad pos="v" level="word" idiom="none" fig="false">Approcher</trad>
-               <trad pos="adv" level="phrase" idiom="none" fig="false" pdc="none" conven="compositional">Tout près</trad>
+               <trad pos="adv" level="phrase" idiom="loc" fig="false" pdc="none" conven="compositional">Tout près</trad>
                <trad pos="adv" level="phrase" idiom="loc" fig="true" pdc="none" conven="dif">À
                   notre porte</trad>
             </entry>
@@ -1706,7 +1706,7 @@
             <entry src-type="word-ref">
                <alt search="body-head" pos="n"  idiom="none" fig="true" register="informel" search-words="shot arm">Shot in the
                   arm</alt>
-               <trad pos="v" level="phrase" idiom="none" fig="true" pdc="none" conven="dif">Coup de
+               <trad pos="n" level="phrase" idiom="none" fig="true" pdc="none" conven="dif">Coup de
                   fouet</trad>
             </entry>
          </exprs>
@@ -2225,7 +2225,7 @@
                <expr p="45">Button one's lip also zip one's lip</expr>
             </head>
             <entry src-type="word-ref">
-               <alt search="bodyMult-head" pos="v"  register="argotique" fig="true" idiom="loc" search-words="button mouth lip">Button your mouth,
+               <alt search="body-head" pos="v"  register="argotique" fig="true" idiom="loc" search-words="button mouth lip">Button your mouth,
                   button your lip</alt>
                <!-- Le COD fait allusion à la bouche ; similaire métaphore, ou différente ? Même partie du corps, ou pas? -->
                <trad pos="v" level="phrase" idiom="loc" fig="true" pdc="none" register="informel"
@@ -3239,7 +3239,7 @@
             </head>
             <entry src-type="word-ref">
                <alt search="head-other" pos="n"  idiom="loc" fig="false" search-words="sight sore">A sight for sore eyes</alt>
-               <trad pos="n" level="phrase" idiom="expr" fig="false" pdc="same" conven="compositional">Un
+               <trad pos="n" level="phrase" idiom="expr" fig="false" pdc="same" conven="similar">Un
                   plaisir pour les yeux</trad>
                <trad pos="v" level="phrase" idiom="none" fig="false" pdc="none" conven="compositional">Faire plaisir à [qqn] de voir
                   [qqh]</trad>
@@ -3888,7 +3888,7 @@
                <expr p="56">Change of heart</expr>
             </head>
             <entry src-type="word-ref">
-               <alt search="body-head" pos="n"  fig="false" idiom="loc" search-words="have heart">Have a change of heart</alt>
+               <alt search="body-head" pos="v"  fig="false" idiom="loc" search-words="have heart">Have a change of heart</alt>
                <trad pos="v" level="phrase" idiom="loc" fig="false" pdc="none" conven="compositional"
                   >Changer d'avis</trad>
             </entry>
