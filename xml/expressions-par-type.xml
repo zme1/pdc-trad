@@ -46,6 +46,7 @@
             <head>
                <desc pos="v" level="phrase" multiple="true"/>
                <expr p="84">Dig one's heels in or dig one's toes in</expr>
+               <coca count="x">Dig your heels in</coca>
             </head>
             <entry src-type="word-ref">
                <alt search="head" pos="v" idiom="loc" fig="true"  search-words="dig">Dig your heels in</alt>
