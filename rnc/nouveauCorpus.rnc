@@ -1,0 +1,107 @@
+# START schema on METADATA and MACROSTRUCTURE
+
+start = corpus
+corpus = element corpus { meta , entries }
+meta = element meta { src+ }
+entries = element entries { body-part+ }
+src = element src { dic-type , title , ( author | pubInfo )* , uri? }
+dic-type = attribute type { src-typeValues }
+title = element title { text }
+author = element author { text }
+pubInfo = element pubInfo { publisher , location , yr }
+publisher = element publisher { text }
+location = element loc { city , st }
+city = element city { text }
+st = element st { text }
+yr = element yr { text }
+uri = element uri { text }
+body-part = element div { body-type , exprs+ }
+body-type = attribute type { text }
+
+# END schema on METADATA and MACROSTRUCTURE
+
+
+# START schema on EXPRESSIONS
+
+exprs = element exprs { head , ( entry | sub-entry )* }
+# Every expression will have a <head> element that comprises the expression
+# found in the idiomatic dictionary and either an <entry> or <sub-entry> child
+# element, depending on whether the expressions in the bilingual dictionaries
+# receive their own full entry or whether they are located within the entry
+# of a word that comprises the expression.
+
+head = element head { desc , expr , coca }
+desc = element desc { pos , register? , note? }
+    pos = attribute pos { posValues }
+    register = attribute register { registerValues }
+    note = attribute note { "vulgar" | "pejorative" }
+# Element <expr> contains the expression and page number from the idiomatic dictionary.
+expr = element expr { p , text }
+    p = attribute p { xsd:integer }
+# Element <coca> contains the expression as searched in the Corpus of Contemporary
+# Amerian English and the number of returns associated with each search. The 100
+# most frequent expressions have from 417 to 9358 returns in the corpus.
+coca = element coca { count , text }
+    count = attribute count { xsd:integer }
+
+entry = element entry { src-type , ( ( def , example* ) | grp )+ }
+    src-type = attribute src-type { src-typeValues }
+
+# Elements <alt> and <trad>
+alt = element alt { pos , loc? , fig , search? , search-words? , note? , register? , text }
+    loc = attribute loc { locValues }
+    fig = attribute fig { figValues }
+    search-words = attribute search-words { text }
+    search = attribute search { searchValues }
+trad = element trad { pos , loc? , fig , register? , note? , text }
+
+example = element example { ( phrase | paraphrase )+ }
+phrase = element phrase { lang , fig? , loc? , note? , register? , trans-of-eng? , text }
+    lang = attribute lang { "eng" | "fr" }
+    trans-of-eng = attribute trans-of-eng { "false" }
+sub-entry = element sub-entry { src-type , main-entry , sub-article? , search-expression? , morphology? , alt? , ( ( def | example | sub-grp ) | grp )+ }
+    main-entry = attribute main-entry { text }
+    # Attribute @sub-article (only in Robert-Collins print) : with the expression in question, is it found within the inline text
+    # of the dictionary entry ("false"), or does it receive the treatment of a sub-entry ("true") ?
+    sub-article = attribute sub-article { "true" | "false" }
+    # Attribute @search-expression : for expressions that do not receive their own entries,
+    # can a user search for the expression to find its main entry ?
+    search-expression = attribute search-expression { "true" | "false" }
+def = element def { ( ( alt , paraphrase? , trad+ ) | ( alt , sub-grp+ ) )+ }
+sub-grp = element sub-grp { ( ( paraphrase? , trad ) | example )+  }
+grp = element grp { ( ( def , example? ) | example )+ }
+paraphrase = element paraphrase { text }
+   morphology = attribute morphology { "dif" }
+
+# END schema on EXPRESSIONS
+
+
+# START schema on PATTERNS
+src-typeValues = "idiom-dic" | "word-ref" | "larousse" | "collins" | "robert-collins"
+posValues = "n" | "v" | "adj" | "adv" | "na" | "interj"
+locValues = "expr" | "expr-prep" | "false" | "na" | "phrasal-verb" | "v-prep" | "compound"
+
+#figValues attribute meanings
+# "true" = figurative marker included
+# "false" = literal marker included
+# "na" = no information given on whether the expression is figurative
+
+figValues = "true" | "false" | "na" | "both" | "idiom"
+registerValues = "slang" | "informal" | "formal" | "literary"
+
+# searchValues attribute meanings
+# "body" = body part
+# "head" = the syntaxical head of the phrase if NOT the body part (the "on" of "on your toes")
+# "bodyHead" = the syntaxical head of the phrase when it IS the body part (the "thumb" of "thumb through")
+# "other" = any word that is neither the syntaxical head, nor the body part
+# "none" = the entire phrase must be searched in the dictionary; no mise en relation with individual terms
+# remaining values = combinations of the defined values above
+
+searchValues = "body" | "head" | "other" | "body-head" |"body-other"  | "head-other"  | "body-head-other" | "none" | "bodyHead" | "bodyHead-other"
+
+# END schema on PATTERNS
+
+
+
+
+
