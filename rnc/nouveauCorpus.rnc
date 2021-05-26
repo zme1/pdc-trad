@@ -59,7 +59,7 @@ example = element example { ( phrase | paraphrase )+ }
 phrase = element phrase { lang , fig? , loc? , note? , register? , trans-of-eng? , text }
     lang = attribute lang { "eng" | "fr" }
     trans-of-eng = attribute trans-of-eng { "false" }
-sub-entry = element sub-entry { src-type , main-entry , sub-article? , search-expression? , morphology? , alt? , ( ( def | example | sub-grp ) | grp )+ }
+sub-entry = element sub-entry { src-type , main-entry , sub-article? , search-expression? , search , morphology? , alt? , ( ( def | example | sub-grp ) | grp )+ }
     main-entry = attribute main-entry { text }
     # Attribute @sub-article (only in Robert-Collins print) : with the expression in question, is it found within the inline text
     # of the dictionary entry ("false"), or does it receive the treatment of a sub-entry ("true") ?

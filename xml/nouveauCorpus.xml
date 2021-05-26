@@ -43,13 +43,13 @@
                <expr p="63">Cold feet</expr>
                <coca count="686">cold feet</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="cold" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="cold" search-expression="false" search="other">
                <def>
                   <alt pos="na" loc="expr" fig="na">to get OR to have cold feet</alt>
                   <trad pos="na" loc="na" fig="na">avoir la trouille</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="cold">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="cold" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">to get ~ feet about doing sth</alt>
                   <trad pos="na" loc="na" fig="na">hésiter à faire qch</trad>
@@ -57,14 +57,14 @@
             </sub-entry>
             <!-- collins, to HAVE cold feet is LITERAL, to GET cold feet is idiomatic.. these two are impossible to show at the same time in Collins, different
             verbs, different entries in the dictionary. -->
-            <sub-entry src-type="collins" main-entry="cold" search-expression="true">
+            <sub-entry src-type="collins" main-entry="cold" search-expression="true" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">to have cold feet</alt>
                   <trad pos="na" loc="na" fig="false">avoir froid aux pieds</trad>
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="foot" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to get cold feet about sth</alt>
                   <paraphrase>start feeling unsure</paraphrase>
@@ -119,20 +119,20 @@
                <coca count="431">feet on the ground</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="foot"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to keep one's feet on the ground</alt>
                   <trad pos="na" loc="na" fig="na">garder les pieds sur terre</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="ground">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="ground" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">to have one's feet firmly on the ~</alt>
                   <trad pos="na" loc="na" fig="na">avoir les pieds sur terre</trad>
                </def>
             </sub-entry>
             <sub-entry src-type="larousse" main-entry="foot" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to have one's OR both feet (firmly) on the
                      ground</alt>
@@ -140,7 +140,7 @@
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="foot" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to have one's feet on the ground</alt>
                   <paraphrase>have a sensible attitude</paraphrase>
@@ -162,7 +162,7 @@
                <expr p="115">Foot in the door</expr>
                <coca count="473">foot in the door</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="foot" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="foot" search-expression="false" search="bodyHead">
                <grp>
                   <def>
                      <alt pos="na" fig="na" loc="na">to get a foot in the door</alt>
@@ -184,7 +184,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="door" search-expression="true">
+            <sub-entry src-type="collins" main-entry="door" search-expression="true" search="other">
                <def>
                   <alt pos="na" fig="na" loc="na">to help sb get their foot in the door; to help sb
                      get their toe in the door</alt>
@@ -210,19 +210,19 @@
                <expr p="245">On foot</expr>
                <coca count="3377">On foot</coca>
             </head>
-            <sub-entry src-type="collins" main-entry="foot &amp; on" search-expression="true">
+            <sub-entry src-type="collins" main-entry="foot &amp; on" search-expression="true" search="body-head">
                <def>
                   <alt pos="na" fig="na" loc="na">on foot</alt>
                   <trad pos="na" fig="na" loc="na">à pied</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="foot">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="foot" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to go on ~</alt>
                   <trad pos="na" loc="na" fig="na">aller à pied</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="foot" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="foot" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">I came on foot</phrase>
                   <phrase lang="fr" fig="na" loc="na">je suis venu à pied</phrase>
@@ -249,14 +249,14 @@
                <coca count="7182">On _ap feet</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="foot"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to be on one's feet</alt>
                   <trad pos="na" fig="na" loc="na">être debout</trad>
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="foot" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to be on one's feet</alt>
                   <paraphrase>standing</paraphrase>
@@ -264,7 +264,7 @@
                </def>
             </sub-entry>
             <sub-entry src-type="larousse" main-entry="foot" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">on your feet!</phrase>
                   <phrase lang="fr" fig="na" loc="na">debout!</phrase>
@@ -289,14 +289,14 @@
                <expr p="278">Put one's foot down</expr>
                <coca count="554">_ap foot down</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="foot">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="foot" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">you've got to put your ~ down</phrase>
                   <paraphrase>be firm</paraphrase>
                   <phrase lang="fr" fig="na" loc="na">il faut réagir</phrase>
                </example>
             </sub-entry>
-            <sub-entry main-entry="foot" src-type="collins" search-expression="true">
+            <sub-entry main-entry="foot" src-type="collins" search-expression="true" search="body">
                <grp>
                   <def>
                      <alt pos="na" fig="false" loc="false">to put one's foot down</alt>
@@ -318,7 +318,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="foot" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="foot" search-expression="false" search="body">
                <grp>
                   <def>
                      <alt pos="na" fig="false" loc="false">to put one's foot down</alt>
@@ -391,7 +391,7 @@
                <coca count="471">At _ap heels</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="heel"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">at sb's ~s</alt>
                   <trad pos="na" loc="na" fig="na">sur les talons de qn</trad>
@@ -406,7 +406,7 @@
                </def>
             </entry>
             <sub-entry src-type="collins" main-entry="heel" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to be at sb's heels</alt>
                   <paraphrase>animal, person</paraphrase>
@@ -420,7 +420,7 @@
                <expr p="158">Head over heels also heels over head</expr>
                <coca count="499">Head over heels; heels over head</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="head">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="head" search="body">
                <alt pos="na" loc="na" fig="na">head over heels</alt>
                <grp>
                   <def>
@@ -442,7 +442,7 @@
                   </def>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="head" search-expression="true">
+            <sub-entry src-type="collins" main-entry="head" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to fall head over heels</alt>
                   <paraphrase>to fall head over heels in love</paraphrase>
@@ -530,7 +530,7 @@
                <expr p="197">Knee-jerk reaction or response</expr>
                <coca count="422">Knee-jerk reaction|response</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="knee">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="knee" search="body">
                <def>
                   <alt pos="adj" loc="na" fig="na">knee-jerk</alt>
                   <paraphrase>reaction</paraphrase>
@@ -544,7 +544,7 @@
                   <trad pos="na" loc="na" fig="na">réflexe</trad>
                </def>
             </entry>
-            <sub-entry src-type="larousse" main-entry="jerk" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="jerk" search-expression="false" search="other">
                <def>
                   <alt pos="na" loc="false" fig="true" note="pejorative">knee jerk reaction</alt>
                   <trad pos="na" fig="false" loc="false">réflexe m</trad>
@@ -577,21 +577,21 @@
                <coca count="5547">On _ap knees</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="knee"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to go down on one's ~s to sb</alt>
                   <trad pos="na" loc="na" fig="na">supplier qn à genoux</trad>
                </def>
             </sub-entry>
             <sub-entry src-type="larousse" main-entry="knee" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="expr" fig="both">to be on one's knees</alt>
                   <trad pos="na" fig="na" loc="na">être à genoux</trad>
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="knee" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to be on one's knees</alt>
                   <trad pos="na" loc="na" fig="na">être à genoux</trad>
@@ -674,14 +674,14 @@
                <coca count="1558">Pain in the ass|butt|rear</coca>
             </head>
             <!-- Robert Collins, an entry is found but with NO body part listed. -->
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="pain">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="pain" search="other">
                <example>
                   <phrase lang="eng" fig="na" loc="na" register="informal">he's a real ~</phrase>
                   <phrase lang="fr" fig="na" loc="na" register="informal">il est vraiment
                      casse-pieds</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="pain" search-expression="true">
+            <sub-entry src-type="collins" main-entry="pain" search-expression="true" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to be a pain in the arse
                      (Britain), to be a pain in the ass (US)</alt>
@@ -689,7 +689,7 @@
                   <trad pos="na" loc="na" fig="na" register="informal">être emmerdant</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="pain" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="pain" search-expression="false" search="other">
                <example>
                   <phrase lang="eng" loc="expr" fig="na" register="informal">he's a pain in the arse
                      (UK, very informal) OR backside OR ass (US, very informal)</phrase>
@@ -808,7 +808,7 @@
                <expr p="112">Flat on one's ass or flat on one's back</expr>
                <coca count="436">flat on _ap ass|back</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="flat" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="flat" search-expression="false" search="head">
                <example>
                   <phrase lang="eng" fig="na" loc="na">he was lying flat on his back</phrase>
                   <phrase lang="fr" fig="na" loc="na">il était allongé à plat sur le dos</phrase>
@@ -819,7 +819,7 @@
                   <trad pos="na" loc="na" fig="na">être alité</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="back" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="back" search-expression="false" search="body">
                <grp>
                   <def>
                      <alt pos="na" fig="false" loc="false">to be flat on one's back</alt>
@@ -892,7 +892,7 @@
                <expr p="241">Off one's chest</expr>
                <coca count="713">Off _ap chest</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="chest">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="chest" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to get something off one's
                      ~</alt>
@@ -909,13 +909,13 @@
                   <trad pos="v" loc="expr" fig="true">vider son sac</trad>
                </def>
             </entry>
-            <sub-entry src-type="collins" main-entry="chest" search-expression="true">
+            <sub-entry src-type="collins" main-entry="chest" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to get sth off one's chest</alt>
                   <trad pos="na" loc="na" fig="na">vider son sac</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="chest" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="chest" search-expression="false" search="body">
                <def>
                   <alt pos="na" loc="expr" fig="na">to get something off one's chest</alt>
                   <trad pos="na" loc="na" fig="na">dire ce qu'on a sur le coeur</trad>
@@ -940,14 +940,14 @@
             <!-- ambiguity of linguistic markers in Robert-Collins : which of the expressions in the sub-article for WALL
             is figurative ? the expression that precedes the marker, or the one that follows it ? I marked the one that
             PRECEDES it. -->
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="back">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="back" search="bodyHead">
                <def>
                   <alt pos="na" loc="na" fig="na">to have one's ~ to the wall</alt>
                   <trad pos="na" loc="na" fig="na">être adossé au mur</trad>
                   <trad pos="na" loc="na" fig="true">être le dos au mur</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="wall">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="wall" search="other">
                <example>
                   <phrase lang="eng" loc="na" fig="true">he had his back to the ~</phrase>
                   <phrase lang="fr" loc="na" fig="na">il était le dos au mur</phrase>
@@ -963,21 +963,21 @@
             </entry>
 
             <!-- VERY VERY INTERESTING, TWO DIFFERENT SUB-ENTRIES FOR THIS EXPRESSION, WITH DIFFERENT MARKERS AND TRANSLATIONS -->
-            <sub-entry src-type="collins" main-entry="back" search-expression="true">
+            <sub-entry src-type="collins" main-entry="back" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="true">to have one's back to the wall</alt>
                   <paraphrase>to have one's back against the wall</paraphrase>
                   <trad pos="na" loc="na" fig="na">être au pied du mur, être le dos au mur</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="wall" search-expression="true">
+            <sub-entry src-type="collins" main-entry="wall" search-expression="true" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to have one's back to the
                      wall</alt>
                   <trad pos="na" loc="na" fig="na">être le dos au mur</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="back" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="back" search-expression="false" search="body">
                <def>
                   <alt pos="na" loc="expr" fig="na">to have one's back to the wall</alt>
                   <trad pos="na" loc="na" fig="na">être au pied du mur</trad>
@@ -990,13 +990,13 @@
                <expr p="25">Behind one's back</expr>
                <coca count="3734">Behind _ap back</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="back">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="back" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">behind sb's ~</alt>
                   <trad pos="na" loc="na" fig="na">derrière le dos de qn</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="back" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="back" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="expr">the decision was taken behind my
                      back</phrase>
@@ -1004,7 +1004,7 @@
                      dos</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="back" search-expression="true">
+            <sub-entry src-type="collins" main-entry="back" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to do sth behind sb's back</alt>
                   <trad pos="na" loc="na" fig="na">faire qch derrière le dos de qn</trad>
@@ -1046,7 +1046,7 @@
                <expr p="241">Off one's back</expr>
                <coca count="1334">Off _ap back</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="back">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="back" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to get off sb's back</alt>
                   <trad pos="na" loc="na" fig="na">laisser qn tranquille</trad>
@@ -1056,7 +1056,7 @@
                   <phrase lang="fr">fiche-moi la paix !</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="back" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="back" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" register="informal" fig="na" loc="expr">get off my
                      back!</phrase>
@@ -1074,7 +1074,7 @@
                      [qqn]</trad>
                </def>
             </entry>
-            <sub-entry src-type="collins" main-entry="back" search-expression="true">
+            <sub-entry src-type="collins" main-entry="back" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to get off sb's back</alt>
                   <trad pos="na" loc="na" fig="na" register="informal">ficher la paix à qn</trad>
@@ -1087,7 +1087,7 @@
                <expr p="246">On one's back</expr>
                <coca count="7739">On _ap back</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="back">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="back" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to be on sb's ~</alt>
                   <trad pos="na" loc="na" fig="na">être sur le dos de qn</trad>
@@ -1097,7 +1097,7 @@
                   <phrase lang="fr">j'ai sans arrêt mon patron sur le dos</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="back" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="back" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" register="informal" fig="na" loc="na">he's always on my
                      back</phrase>
@@ -1159,7 +1159,7 @@
             </entry>
             <!-- ambiguity of linguistic markers in Robert-Collins : for this sub-entry on pat on the back (<grp> #2),
             it seems that the linguistic marker modifies the expression that PRECEDES it. -->
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="pat">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="pat" search="head">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to ~ o.s. on the back</alt>
@@ -1168,7 +1168,7 @@
                </grp>
                <grp>
                   <def>
-                     <alt pos="na" loc="na" fig="true">to givie sb a ~ on the back</alt>
+                     <alt pos="na" loc="na" fig="true">to give sb a ~ on the back</alt>
                      <trad pos="na" loc="na" fig="na">complimenter qn</trad>
                   </def>
                   <example>
@@ -1177,14 +1177,14 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="pat" search-expression="true">
+            <sub-entry src-type="collins" main-entry="pat" search-expression="true" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to pat sb on the back</alt>
                   <paraphrase>congratulate</paraphrase>
                   <trad pos="na" loc="na" fig="na">contratuler qn</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="pat" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="pat" search-expression="false" search="head">
                <grp>
                   <def>
                      <alt pos="na" loc="expr" fig="false">to pat somebody on the back</alt>
@@ -1228,7 +1228,7 @@
             </head>
             <!-- Robert-Collins unique article construction : the head-word does not have a translation, simply four example sentences.
             this sub-article information is all listed under the article "to turn one's back on sb/sth"-->
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="back">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="back" search="body">
                <alt pos="na" loc="na" fig="na">to turn one's back on sb/sth</alt>
                <grp>
                   <example>
@@ -1245,13 +1245,13 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="turn" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="turn" search-expression="false" search="head">
                <def>
                   <alt pos="na" loc="na" fig="false">to turn one's back on somebody (literal)</alt>
                   <trad pos="na" fig="na" loc="na">tourner le dos à quelqu'un</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="turn" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="turn" search-expression="false" search="head">
                <example>
                   <phrase lang="eng" fig="na" loc="expr">how can you turn your back on your own
                      family?</phrase>
@@ -1289,14 +1289,14 @@
                <expr p="356">Thumb through</expr>
                <coca count="672">THUMB through</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="thumb">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="thumb" search="bodyHead">
                <def>
                   <alt pos="v" fig="na" loc="na">thumb through</alt>
                   <paraphrase>book</paraphrase>
                   <trad pos="na" loc="na" fig="na">feuilleter</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="thumb" search-expression="true">
+            <sub-entry src-type="collins" main-entry="thumb" search-expression="true" search="bodyHead">
                <def>
                   <alt pos="v" loc="na" fig="na">thumb through</alt>
                   <paraphrase>book</paraphrase>
@@ -1352,7 +1352,7 @@
                <coca count="885">At _ap fingertips</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="fingertip"
-               morphology="dif">
+               morphology="dif" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">all the basic controls are at your
                      ~s</phrase>
@@ -1361,7 +1361,7 @@
                </example>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="fingertip" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to have sth at one's fingertips</alt>
                   <sub-grp>
@@ -1375,7 +1375,7 @@
                </def>
             </sub-entry>
             <sub-entry src-type="larousse" main-entry="fingertip" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <grp>
                   <def>
                      <alt pos="na" fig="na" loc="expr">to have information at one's fingertips</alt>
@@ -1415,7 +1415,7 @@
                <coca count="611">CROSS _ap fingers</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="finger"
-               morphology="dif">
+               morphology="dif" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">~s crossed!</phrase>
@@ -1429,7 +1429,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="cross" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="cross" search-expression="false" search="head">
                <example>
                   <phrase lang="eng" fig="na" loc="expr">cross your fingers OR keep your fingers
                      crossed for me</phrase>
@@ -1437,7 +1437,7 @@
                </example>
             </sub-entry>
             <sub-entry src-type="larousse" main-entry="finger" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="expr">to keep one's fingers crossed</alt>
                   <paraphrase>pour souhaiter bonne chance</paraphrase>
@@ -1445,7 +1445,7 @@
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="finger" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="true">to keep one's fingers crossed, to cross one's
                      fingers</alt>
@@ -1459,14 +1459,14 @@
                <expr p="208">lift a finger or lift a hand also raise a hand</expr>
                <coca count="669">LIFT|RAISE a finger</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="finger">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="finger" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">he wouldn't lift a ~ to help me</phrase>
                   <phrase lang="fr" loc="na" fig="na">il ne lèverait pas le petit doigt pour
                      m'aider</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="finger" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="finger" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="expr">you never lift OR raise a finger to
                      help</phrase>
@@ -1488,7 +1488,7 @@
                </example>
             </entry>
             <sub-entry src-type="collins" main-entry="finger" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">He never lifts a finger.</phrase>
                   <phrase lang="fr" fig="na" loc="na">Il ne lève jamais le petit doigt.</phrase>
@@ -1509,7 +1509,7 @@
             <!-- Robert-Collins : the asterisk in the French translation provided designates an informal word. I usually don't transcribe these astericks, since
             their information is encoded into the attrbutes associated to the translation, but I'm keeping this one for now since it's inline... -->
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="finger"
-               morphology="dif">
+               morphology="dif" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">there's something wrong, but I can't put my ~
                      on it</phrase>
@@ -1517,14 +1517,14 @@
                      cloche* mais je ne peux pas mettre le doigt dessus</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="finger" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="finger" search-expression="false" search="body">
                <def>
                   <alt pos="na" fig="na" loc="expr">to put one's finger one something</alt>
                   <paraphrase>identify</paraphrase>
                   <trad pos="na" fig="false" loc="false">mettre le doigt sur quelque chose</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="finger" search-expression="false">
+            <sub-entry src-type="collins" main-entry="finger" search-expression="false" search="body">
                <def>
                   <alt pos="na" loc="na" fig="true">to put one's finger on sth</alt>
                   <paraphrase>identify</paraphrase>
@@ -1567,10 +1567,10 @@
          <exprs>
             <head>
                <desc pos="adv"/>
-               <expr p="14">At hand also at close hand or near at hand</expr>
+               <expr p="14">At hand also at close at hand or near at hand</expr>
                <coca count="629">close|near at hand</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">at hand</alt>
                   <paraphrase>close by</paraphrase>
@@ -1585,7 +1585,7 @@
             <!--  INTERESTING POINT HERE, COLLINS ABBREVIATED ENTRY WHEN THE WHOLE EXPRESSION IS SEARCHED DOES NOT GIVE ALL THE INFORMATION
             PROVIDED FOR THE ENTRY GROUPS. THE PARAPHRASE ASSOCIATED WITH THIS DEFINITION IS NOT SHOWN IN THE ABRIDGED SUB-ENTRY WHEN THE EXPRESSION
             IS SEARCHED. -->
-            <sub-entry src-type="collins" main-entry="hand" search-expression="true">
+            <sub-entry src-type="collins" main-entry="hand" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to be near at hand, to be close at hand</alt>
                   <paraphrase>indicating availability</paraphrase>
@@ -1686,7 +1686,7 @@
                <expr p="153">Have a hand in</expr>
                <coca count="972">HAVE a hand in</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a ~ in</alt>
                   <sub-grp>
@@ -1703,7 +1703,7 @@
                   <phrase lang="fr">je n'y suis pour rien</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="hand" search-expression="true">
+            <sub-entry src-type="collins" main-entry="hand" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">have a hand in sth</alt>
                   <trad pos="na" loc="na" fig="na">jouer un rôle dans qch</trad>
@@ -1759,7 +1759,7 @@
                <coca count="732">HAVE _ap hands full</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to have one's ~s full with</alt>
                   <trad pos="na" loc="na" fig="na">avoir fort à faire avec</trad>
@@ -1776,7 +1776,7 @@
                </def>
             </entry>
             <sub-entry src-type="collins" main-entry="hand" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to have one's hands full</alt>
                   <paraphrase>be occupied</paraphrase>
@@ -1795,13 +1795,13 @@
                <coca count="3837">HOLD _ap hand</coca>
             </head>
             <sub-entry src-type="collins" main-entry="hand" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="true">to hold sb's hand</alt>
                   <trad pos="na" loc="na" fig="na">encourager qn</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="hold" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="hold" search-expression="false" search="head">
                <def>
                   <alt pos="na" loc="na" fig="true">to hold somebody's hand</alt>
                   <trad pos="na" loc="na" fig="na">tenir la main à quelqu'un</trad>
@@ -1812,9 +1812,9 @@
             <head>
                <desc pos="adj"/>
                <expr p="178">In hand</expr>
-               <coca count="9358"/>
+               <coca count="9358">in hand</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand" search="body">
                <alt pos="na" loc="na" fig="na">in hand</alt>
                <sub-grp>
                   <example>
@@ -1857,7 +1857,7 @@
                   </example>
                </sub-grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="hand" search-expression="false">
+            <sub-entry src-type="collins" main-entry="hand" search-expression="false" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" fig="na" loc="na">Hughes finished with 15 seconds in
@@ -1881,7 +1881,7 @@
                <expr p="189">Join forces or join hands</expr>
                <coca count="2762">JOIN forces|hands</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="join" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="join" search-expression="false" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to join hands</alt>
                   <sub-grp>
@@ -1895,7 +1895,7 @@
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="hand" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to join hands</alt>
                   <trad pos="na" loc="na" fig="na">se donner la main</trad>
@@ -1941,7 +1941,7 @@
                <expr p="205">Lend a hand or give a hand also bear a hand</expr>
                <coca count="482">LEND a hand</coca>
             </head>
-            <sub-entry src-type="collins" main-entry="hand" search-expression="true">
+            <sub-entry src-type="collins" main-entry="hand" search-expression="true" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to give sb a hand, to lend sb a hand</alt>
@@ -1960,7 +1960,7 @@
                   </def>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="lend" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="lend" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">to lend somebody a hand</alt>
                   <trad pos="na" fig="na" loc="na">donner un coup de main à quelqu'un</trad>
@@ -1996,7 +1996,7 @@
                <expr p="241">Off one's hands</expr>
                <coca count="755">Off _ap hands</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">the children are now off our ~s</phrase>
@@ -2018,7 +2018,7 @@
                </grp>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="hand" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to be off sb's hands</alt>
@@ -2060,7 +2060,7 @@
                <expr p="246">On hand</expr>
                <coca count="5063">On hand</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">on hand</alt>
                   <trad pos="na" loc="na" fig="na">sur place</trad>
@@ -2070,7 +2070,7 @@
                   <phrase lang="fr">il y a des experts sur place pour vous conseiller</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="hand" search-expression="true">
+            <sub-entry src-type="collins" main-entry="hand" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to be on hand</alt>
                   <sub-grp>
@@ -2100,7 +2100,7 @@
                <expr p="246">On one hand</expr>
                <coca count="2527">On one hand</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">on the one ~ ..., on the other ~</alt>
@@ -2115,7 +2115,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="hand" search-expression="true">
+            <sub-entry src-type="collins" main-entry="hand" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">on the one hand ... , on the other hand</alt>
                   <trad pos="na" loc="na" fig="na">d'une part ... , d'autre part</trad>
@@ -2162,7 +2162,7 @@
                <coca count="6829">On _ap hands</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand"
-               morphology="dif">
+               morphology="dif" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">we've got a difficult job on our
@@ -2184,7 +2184,7 @@
             one's hands" to get this expression. ALSO, searching this expression does not propose two related sub-entries (which are only found in the 
             main entry "hand", each having their own different information.-->
             <sub-entry src-type="collins" main-entry="hand" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <grp>
                   <def>
                      <alt pos="na" fig="na" loc="na">to have sth on one's hands</alt>
@@ -2221,7 +2221,7 @@
                <expr p="254">Out of hand</expr>
                <coca count="3243">Out of hand</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="hand" search="body">
                <alt pos="na" loc="na" fig="na">out of hand</alt>
                <grp>
                   <def>
@@ -2275,7 +2275,7 @@
             <!-- My deduction that the linguistic markers in Robert-Collins follow their modified phrases is more-or-less confirmed with this
             entry.-->
             <!-- search every robert-collins entry before this one to adjust the @loc attribute to "compound" when necessary -->
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="right">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="right" search="other">
                <def>
                   <alt pos="na" fig="na" loc="compound">his right-~ man</alt>
                   <trad pos="na" fig="true" loc="na">son bras droit</trad>
@@ -2322,7 +2322,7 @@
                </def>
             </entry>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="hand"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to sit on one's ~s</alt>
                   <trad pos="na" loc="na" fig="na">rester sans rien faire</trad>
@@ -2336,14 +2336,14 @@
                <coca count="791">THROW up _ap hands</coca>
             </head>
             <sub-entry src-type="collins" main-entry="hand" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to throw up one's hands</alt>
                   <paraphrase>expressing anger, frustration</paraphrase>
                   <trad pos="na" loc="na" fig="na">lever les bras au ciel</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="throw" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="throw" search-expression="false" search="head">
                <example>
                   <phrase lang="eng" fig="na" loc="na">she threw up her hands in horror</phrase>
                   <phrase lang="fr" fig="na" loc="na">elle a levé les bras en signe
@@ -2367,13 +2367,13 @@
                <expr p="293">Rub elbows also rub shoulders</expr>
                <coca count="575">RUB elbows|shoulders</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="rub" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="rub" search-expression="false" search="head">
                <def>
                   <alt pos="na" loc="expr" fig="na">to rub shoulders with somebody</alt>
                   <trad pos="na" loc="na" fig="na">côtoyer OR coudoyer quelqu'un</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="rub" search-expression="true">
+            <sub-entry src-type="collins" main-entry="rub" search-expression="true" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to rub shoulders with sb, to rub elbows with sb
                      (US)</alt>
@@ -2402,20 +2402,20 @@
                <coca count="756">With open arms</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="arm"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">with open ~s</alt>
                   <trad pos="na" loc="na" fig="na">à bras ouverts</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="arm" search-expression="true" morphology="dif">
+            <sub-entry src-type="collins" main-entry="arm" search-expression="true" morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to welcome sb with open arms</alt>
                   <trad pos="na" loc="na" fig="na">accueillir qn à bras ouverts</trad>
                </def>
             </sub-entry>
             <sub-entry main-entry="arm" src-type="larousse" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to welcome somebody/something with open arms</alt>
                   <trad pos="na" fig="na" loc="na">accueillir quelqu'un/quelque chose à bras
@@ -2443,20 +2443,20 @@
                <expr p="59">Chip on one's shoulder</expr>
                <coca count="497">Chip on _ap shoulder</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="chip">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="chip" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a ~ on one's shoulder</alt>
                   <trad pos="na" loc="na" fig="na">être aigri</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="chip" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="chip" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na" register="informal">to have a chip on one's
                      shoulder (informal)</alt>
                   <trad pos="na" fig="na" loc="na">en vouloir à tout le monde</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="chip" search-expression="true">
+            <sub-entry src-type="collins" main-entry="chip" search-expression="true" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a chip on one's shoulder</alt>
                   <paraphrase>have a grudge</paraphrase>
@@ -2479,7 +2479,7 @@
                <expr p="158">Head and shoulders</expr>
                <coca count="699">Head and shoulders</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="head">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="head" search="bodyHead">
                <alt pos="na" loc="na" fig="na">head and shoulders</alt>
                <sub-grp>
                   <example>
@@ -2499,7 +2499,7 @@
                   </example>
                </sub-grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="head" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="head" search-expression="false" search="bodyHead">
                <example>
                   <phrase lang="eng" fig="na" loc="expr">she's head and shoulders above the
                      rest</phrase>
@@ -2508,7 +2508,7 @@
                </example>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="shoulder" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to stand head and shoulders above sb</alt>
                   <sub-grp>
@@ -2549,13 +2549,13 @@
                <coca count="2366">LOOK over _ap shoulder</coca>
             </head>
             <!-- Two entries in larousse, one in SHOULDER and one in LOOK, both with very different propositions. -->
-            <sub-entry src-type="larousse" main-entry="shoulder" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="shoulder" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">I looked over my shoulder</phrase>
                   <phrase lang="fr" fig="na" loc="na">j'ai jeté un coup d'oeil derrière moi</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="look" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="look" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">to look over somebody's shoulder</alt>
                   <trad pos="na" loc="na" fig="false">regarder par-dessus l'épaule de
@@ -2563,7 +2563,7 @@
                   <trad pos="na" loc="na" fig="true">surveiller ce que fait quelqu'un</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="shoulder" search-expression="true">
+            <sub-entry src-type="collins" main-entry="shoulder" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to look over one's shoulder</alt>
                   <sub-grp>
@@ -2584,7 +2584,7 @@
                <coca count="3150">On _ap shoulders</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="shoulder"
-               morphology="dif">
+               morphology="dif" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">all the responsabilities had fallen on his
                      ~s</phrase>
@@ -2599,13 +2599,13 @@
                <expr p="311">Shoulder to shoulder</expr>
                <coca count="671">Shoulder to shoulder</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="shoulder" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="shoulder" search-expression="false" search="body">
                <def>
                   <alt pos="na" loc="expr" fig="na">to stand shoulder to shoulder</alt>
                   <trad pos="na" loc="na" fig="na">être coude à coude</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="shoulder" search-expression="true">
+            <sub-entry src-type="collins" main-entry="shoulder" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to stand shoulder to shoulder</alt>
                   <sub-grp>
@@ -2653,13 +2653,13 @@
                <expr p="38">Break one's neck</expr>
                <coca count="852">BREAK _ap neck</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="break">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="break" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to ~ one's leg/one's neck</alt>
                   <trad pos="na" loc="na" fig="na">se casser la jambe/le cou</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="break" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="break" search-expression="false" search="head">
                <grp>
                   <def>
                      <alt pos="na" fig="na" loc="na">to break one's neck</alt>
@@ -2712,15 +2712,15 @@
             <head>
                <desc pos="v"/>
                <expr p="165">Hold one's tongue</expr>
-               <coca count="543"/>
+               <coca count="543">HOLD _ap tongue</coca>
             </head>
-            <sub-entry src-type="collins" main-entry="tongue" search-expression="true">
+            <sub-entry src-type="collins" main-entry="tongue" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to hold your tongue</alt>
                   <trad pos="na" loc="na" fig="na">tenir sa langue</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="tongue" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="tongue" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="true" loc="na">hold your tongue!</phrase>
                   <phrase lang="fr" fig="na" loc="na">tenez votre langue !</phrase>
@@ -2750,14 +2750,14 @@
                <expr p="113">Fly in the face of or fly in the teeth of</expr>
                <coca count="777">FLY in the face|teeth of</coca>
             </head>
-            <sub-entry src-type="collins" main-entry="face" search-expression="true">
+            <sub-entry src-type="collins" main-entry="face" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to fly in the face of sth</alt>
                   <paraphrase>contradict completely</paraphrase>
                   <trad pos="na" loc="na" fig="na">défier qch</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="fly" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="fly" search-expression="false" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to fly in the face of something</alt>
                   <paraphrase>reason, evidence, logic</paraphrase>
@@ -2782,26 +2782,26 @@
                <coca count="454">GET _ap teeth into ; SINK _ap teeth into</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="tooth"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="true">to get one's teeth into</alt>
                   <trad pos="na" loc="na" fig="na">se mettre à qch pour de bon</trad>
                </def>
             </sub-entry>
             <!-- LAROUSSE, two different definitions in two different entries !! -->
-            <sub-entry src-type="larousse" main-entry="sink" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="sink" search-expression="false" search="head">
                <example>
                   <phrase lang="eng" fig="na" loc="na">I sank my teeth into the peach</phrase>
                   <phrase lang="fr" fig="na" loc="na">j'ai mordu dans la pêche</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="tooth" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="tooth" search-expression="false" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to get one's teeth into something</alt>
                   <trad pos="na" loc="na" fig="na">se mettre à fond à quelque chose</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="sink" search-expression="true">
+            <sub-entry src-type="collins" main-entry="sink" search-expression="true" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to sink one's teeth into sth</alt>
                   <paraphrase>steak, cake, sandwich</paraphrase>
@@ -2815,7 +2815,7 @@
             <entry src-type="word-ref">
                <grp>
                   <def>
-                     <alt pos="v" loc="expr" fig="na">sink your teeth into [sth]</alt>
+                     <alt pos="v" loc="expr" fig="na" search="head" search-words="sink">sink your teeth into [sth]</alt>
                      <paraphrase>bite</paraphrase>
                      <trad pos="v" loc="na" fig="na">mordre</trad>
                   </def>
@@ -2845,19 +2845,19 @@
                <expr p="360">Tooth and nail</expr>
                <coca count="556">Tooth and nail</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="tooth">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="tooth" search="bodyHead">
                <def>
                   <alt pos="na" loc="na" fig="na">to fight ~ and nail</alt>
                   <trad pos="na" loc="na" fig="na">se battre farouchement</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="tooth" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="tooth" search-expression="false" search="bodyHead">
                <def>
                   <alt pos="na" fig="na" loc="na">to fight tooth and nail</alt>
                   <trad pos="na" fig="na" loc="na">se battre bec et ongles</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="tooth" search-expression="true">
+            <sub-entry src-type="collins" main-entry="tooth" search-expression="true" search="bodyHead">
                <def>
                   <alt pos="na" loc="na" fig="na">to fight sth tooth and nail</alt>
                   <trad pos="na" loc="na" fig="na">se battre bec et ongles contre qch</trad>
@@ -2885,7 +2885,7 @@
                <expr p="284">Read my lips or mark my words</expr>
                <coca count="1081">READ my lips; MARK my words</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="read">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="read" search="head">
                <example>
                   <phrase lang="eng" loc="na" fig="na">~ my lips!</phrase>
                   <phrase lang="fr" loc="na" fig="na">vou m'avez bien compris ?</phrase>
@@ -2902,13 +2902,13 @@
                <expr p="189">Jaw drop or jaw drop a mile</expr>
                <coca count="632">Jaw DROP; jaw DROP a mile</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="jaw">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="jaw" search="bodyHead">
                <example>
                   <phrase lang="eng" loc="na" fig="na">his ~ dropped</phrase>
                   <phrase lang="fr" loc="na" fig="na">il en est resté bouche bée</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="jaw" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="jaw" search-expression="false" search="bodyHead">
                <example>
                   <phrase lang="eng" fig="na" loc="na">his jaw dropped in astonishment</phrase>
                   <phrase lang="fr" fig="na" loc="na">il en est resté bouche bée</phrase>
@@ -2921,20 +2921,20 @@
                <expr p="193">Keep one's mouth shut</expr>
                <coca count="2255">KEEP _ap mouth shut</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="mouth">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="mouth" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">he kept his ~ shut (about it)</phrase>
                   <phrase lang="fr" loc="na" fig="na">il n'en a pas soufflé mot</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="mouth" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="mouth" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">keep your mouth shut</phrase>
                   <phrase lang="fr" fig="na" loc="na">n'en parlez à personne</phrase>
                   <phrase lang="fr" fig="na" loc="na">gardez-le pour vous</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="shut" search-expression="true">
+            <sub-entry src-type="collins" main-entry="shut" search-expression="true" search="other">
                <example>
                   <phrase lang="eng" loc="na" fig="na">keep your mouth shut! (don't tell
                      anyone)</phrase>
@@ -2948,7 +2948,7 @@
                <expr p="385">Word of mouth</expr>
                <coca count="1410">Word of mouth</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="word">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="word" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">by ~ of mouth</alt>
                   <trad pos="na" loc="na" fig="na">de bouche à l'oreille</trad>
@@ -2962,7 +2962,7 @@
                   <trad pos="na" loc="na" fig="na">de bouche à oreille</trad>
                </def>
             </entry>
-            <sub-entry src-type="larousse" main-entry="word" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="word" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">by OR through word of mouth</alt>
                   <trad pos="na" fig="na" loc="na">oralement</trad>
@@ -3014,13 +3014,13 @@
                <expr p="249">On the nose</expr>
                <coca count="581">On the nose</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="nose">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="nose" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">right on the ~</alt>
                   <trad pos="na" loc="na" fig="na">en plein dans le mille</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="nose" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="nose" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" register="informal" fig="na" loc="expr">you've got OR hit it
                      right on the nose</phrase>
@@ -3050,7 +3050,7 @@
                <expr p="366">Under one's nose or under the nose of</expr>
                <coca count="761">Under _ap nose; under the nose of</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="nose">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="nose" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">it was right under his ~ all the
@@ -3065,14 +3065,14 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="nose" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="nose" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">it was (right) under my nose all the
                      time</phrase>
                   <phrase lang="fr" fig="na" loc="na">c'était en plein sous mon nez</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="nose" search-expression="true">
+            <sub-entry src-type="collins" main-entry="nose" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to be happening under sb's nose</alt>
                   <trad pos="na" loc="na" fig="na">se passer sous le nez de qn</trad>
@@ -3106,13 +3106,13 @@
                <expr p="364">Turn the other cheek</expr>
                <coca count="452">TURN the other cheek</coca>
             </head>
-            <sub-entry src-type="collins" main-entry="cheek" search-expression="true">
+            <sub-entry src-type="collins" main-entry="cheek" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="true">turn the other cheek</alt>
                   <trad pos="na" loc="na" fig="na">tendre l'autre joue</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="cheek" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="cheek" search-expression="false" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to turn the other cheek</alt>
                   <trad pos="na" fig="na" loc="na">tendre OR présenter l'autre joue</trad>
@@ -3141,14 +3141,14 @@
                <expr p="54">Catch one's eye</expr>
                <coca count="2762">CATCH _ap eye</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="catch">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="catch" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to ~ sb's attention or eye</alt>
                   <trad pos="na" loc="na" fig="na">attirer l'attention de qn</trad>
                </def>
             </sub-entry>
             <!-- COLLINS, a weird instance of not pairing example sentences with their definitions directly.. did i already address this ? -->
-            <sub-entry src-type="collins" main-entry="eye" search-expression="true">
+            <sub-entry src-type="collins" main-entry="eye" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to catch sb's eye</alt>
                   <sub-grp>
@@ -3168,14 +3168,14 @@
                </example>
             </sub-entry>
             <!-- Larousse, two entries for the same expression -->
-            <sub-entry src-type="larousse" main-entry="catch" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="catch" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">to catch somebody's attention OR somebody's
                      eye</alt>
                   <trad pos="na" fig="false" loc="false">attirer l'attention de quelqu'un</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to try to catch somebody's eye</alt>
                   <trad pos="na" fig="na" loc="na">essayer d'attirer le regard de quelqu'un</trad>
@@ -3189,7 +3189,7 @@
                <coca count="480">CLOSE _ap eyes to; SHUT _ap eyes to</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="true" main-entry="eye"
-               morphology="dif">
+               morphology="dif" search="body">
                <!-- Robert-Collins: an entry format that is quite particular, sub article "mot vedette", with 
                different variations and their translations -->
                <!--<alt pos="na" loc="na" fig="na">to close one's eyes to sth</alt>-->
@@ -3213,7 +3213,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">we can't close OR shut our eyes to the
                      problem</phrase>
@@ -3221,7 +3221,7 @@
                      problème</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="eye" search-expression="true" morphology="dif">
+            <sub-entry src-type="collins" main-entry="eye" search-expression="true" morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to close one's eyes to sth, to shut one's eyes to
                      sth</alt>
@@ -3263,7 +3263,7 @@
                <expr p="101">Eye candy</expr>
                <coca count="444">Eye candy</coca>
             </head>
-            <sub-entry src-type="robert-collins" main-entry="eye" sub-article="true">
+            <sub-entry src-type="robert-collins" main-entry="eye" sub-article="true" search="body">
                <grp>
                   <def>
                      <alt pos="n" loc="na" fig="na" register="informal">eye-candy</alt>
@@ -3320,7 +3320,7 @@
                <expr p="154">Have an eye on or have one's eye on</expr>
                <coca count="865">HAVE an eye on; HAVE _ap eye on</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="eye">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="eye" search="body">
                <alt pos="na" loc="na" fig="na" register="informal">to have one's eye on sth</alt>
                <sub-grp>
                   <example>
@@ -3337,7 +3337,7 @@
                   </example>
                </sub-grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">the boss has his eye on Smith for the
                      job</phrase>
@@ -3345,14 +3345,14 @@
                      poste</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">she has her eye on the mayor's
                      position</phrase>
                   <phrase lang="fr" fig="na" loc="na">elle vise la mairie</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="eye" search-expression="true">
+            <sub-entry src-type="collins" main-entry="eye" search-expression="true" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to have one's eye on sb</alt>
@@ -3437,7 +3437,7 @@
                <coca count="8113">KEEP an eye on; KEEP _ap eye on; HAVE an eye on; HAVE _ap eye
                   on</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="eye">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="eye" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to keep an ~ on things</alt>
@@ -3452,13 +3452,13 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="eye" search-expression="true">
+            <sub-entry src-type="collins" main-entry="eye" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to keep an eye on sth</alt>
                   <trad pos="na" loc="na" fig="na">surveiller qch</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" fig="na" loc="na">keep your eye on the ball</phrase>
@@ -3504,21 +3504,21 @@
                <coca count="1102">LAY eyes on; SET eyes on</coca>
             </head>
             <sub-entry src-type="robert-collins" sub-article="false" main-entry="eye"
-               morphology="dif">
+               morphology="dif" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na" register="informal">I've never set ~s on
                      him</phrase>
                   <phrase lang="fr" loc="na" fig="na">je ne l'ai jamais vu</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="eye" search-expression="true" morphology="dif">
+            <sub-entry src-type="collins" main-entry="eye" search-expression="true" morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to set eyes on sth/sb, to clap
                      eyes on sb/sth, to lay eyes on sth/sb</alt>
                   <trad pos="na" loc="na" fig="na">voir qn/qch</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na" register="informal">I've never clapped
                      (informal) OR set OR laid eyes on her</phrase>
@@ -3540,7 +3540,7 @@
                <expr p="255">Out of the corner of one's eye</expr>
                <coca count="1002">Out of the corner of _ap eye</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="corner">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="corner" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to look at sb out of the ~ of one's eye</alt>
                   <trad pos="na" loc="na" fig="na">regarder qn du coin de l'œil</trad>
@@ -3585,7 +3585,7 @@
                <coca count="496">SEE eye to eye</coca>
             </head>
             <!-- "to see eye to eye" returns only the first of these three sub-entries. -->
-            <sub-entry src-type="collins" main-entry="eye" search-expression="true">
+            <sub-entry src-type="collins" main-entry="eye" search-expression="true" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to see eye to eye</alt>
@@ -3606,7 +3606,7 @@
                   </def>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eye" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eye" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">she and I don't see eye to eye</phrase>
                   <phrase lang="fr" fig="na" loc="na">[disagree] elle ne voit pas les choses du même
@@ -3615,7 +3615,7 @@
                      nous entendons pas</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="eye">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="eye" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to see ~ to ~ with sb</alt>
                   <trad pos="na" loc="na" fig="na">être d'accord avec qn</trad>
@@ -3647,14 +3647,14 @@
                <expr p="363">Turn a blind eye</expr>
                <coca count="1191">TURN a blind eye</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="blind">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="blind" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">to turn a ~ eye (to sth)</alt>
                   <trad pos="na" loc="na" fig="na">fermer les yeux (sur qch)</trad>
                </def>
             </sub-entry>
             <!-- turn a blind eye only returns the first of these two sub-entries. -->
-            <sub-entry src-type="collins" main-entry="blind" search-expression="true">
+            <sub-entry src-type="collins" main-entry="blind" search-expression="true" search="other">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to turn a blind eye</alt>
@@ -3669,7 +3669,7 @@
                   </def>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="blind" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="blind" search-expression="false" search="other">
                <def>
                   <alt pos="na" fig="na" loc="expr">to turn a blind eye to something</alt>
                   <trad pos="na" fig="na" loc="na">fermer les yeux sur quelque chose</trad>
@@ -3713,7 +3713,7 @@
                <expr p="283">Raise eyebrows</expr>
                <coca count="544">RAISE eyebrows</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="raise">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="raise" search="head">
                <grp>
                   <example>
                      <phrase lang="eng" fig="na" loc="na">they ~d their eyebrows when they
@@ -3729,7 +3729,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="eyebrow" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="eyebrow" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="true" loc="na">her behaviour raised a few eyebrows
                      (figurative)</phrase>
@@ -3764,7 +3764,7 @@
                </grp>
             </entry>
             <sub-entry src-type="larousse" main-entry="eyebrow" search-expression="false"
-               morphology="dif">
+               morphology="dif" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to raise one's eyebrows</alt>
@@ -3780,7 +3780,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="eyebrow" search-expression="true">
+            <sub-entry src-type="collins" main-entry="eyebrow" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to raise an eyebrow</alt>
                   <paraphrase>show negative response</paraphrase>
@@ -3800,19 +3800,19 @@
                <expr p="218">Make a face</expr>
                <coca count="966">MAKE a face</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="face" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to make ~s</alt>
                   <trad pos="na" loc="na" fig="na">faire des grimaces</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="face" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="face" search-expression="false" search="body">
                <def>
                   <alt pos="na" fig="na" loc="expr">to make OR pull a face at somebody</alt>
                   <trad pos="na" fig="na" loc="na">faire une grimace à quelqu'un</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="face" search-expression="true">
+            <sub-entry src-type="collins" main-entry="face" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to pull a face, to make a face</alt>
                   <sub-grp>
@@ -3887,19 +3887,19 @@
             </head>
             <!-- Robert-Collins : sub-set of entries listed under "prestige", and to LOSE face is included, while to SAVE face is not. Also,
             to LOSE face does not appear under the entry LOSE. Internal inconsistency?? -->
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="save">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="save" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to ~ face</alt>
                   <trad pos="na" loc="na" fig="na">sauver la face</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="save" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="save" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="expr">to save face</alt>
                   <trad pos="na" fig="na" loc="na">sauver la face</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="face" search-expression="true">
+            <sub-entry src-type="collins" main-entry="face" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to save face</alt>
                   <trad pos="na" loc="na" fig="na">sauver la face</trad>
@@ -3920,13 +3920,13 @@
                <expr p="312">Show one's face</expr>
                <coca count="803">SHOW _ap face</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="face">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="face" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">he won't show his ~ here again</phrase>
                   <phrase lang="fr" loc="na" fig="na">il ne remettra plus les pieds ici</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="show">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="show" search="head">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">I ought to ~ my face at Paul's
@@ -3943,14 +3943,14 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="face" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="face" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">he won't show his face here again!</phrase>
                   <phrase lang="fr" fig="na" loc="na">il ne risque pas de remettre les pieds ici
                      !</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="face" search-expression="true">
+            <sub-entry src-type="collins" main-entry="face" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to show one's face</alt>
                   <trad pos="na" loc="na" fig="na">se montrer</trad>
@@ -3975,13 +3975,13 @@
             </head>
             <!-- Robert-Collins: to keep one's head and to lose one's head, same figurative expression, same entry. Compare it with
             to save face and to lose face ! -->
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="head">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="head" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to keep one's ~</alt>
                   <trad pos="na" loc="na" fig="na">garder son sang-froid</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="head" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="head" search-expression="false" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">keep your head!</phrase>
@@ -3996,7 +3996,7 @@
                   </def>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="head" search-expression="true">
+            <sub-entry src-type="collins" main-entry="head" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to keep one's head</alt>
                   <paraphrase>remain calm</paraphrase>
@@ -4018,19 +4018,19 @@
                <expr p="214">Lose one's head (over)</expr>
                <coca count="483">LOSE _ap head</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="head">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="head" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to lose one's ~</alt>
                   <trad pos="na" loc="na" fig="na">perdre la tête</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="lose" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="lose" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">to lose one's head</alt>
                   <trad pos="na" fig="na" loc="na">perdre la tête</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="head" search-expression="true">
+            <sub-entry src-type="collins" main-entry="head" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to lose one's head</alt>
                   <trad pos="na" loc="na" fig="na">perdre la tête</trad>
@@ -4058,14 +4058,14 @@
                <expr p="242">Off the top of one's head</expr>
                <coca count="803">Off the top of _ap head</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="top">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="top" search="other">
                <example>
                   <phrase lang="eng" loc="na" fig="na" register="informal">I'm saying that off the ~
                      of my head</phrase>
                   <phrase lang="fr" loc="na" fig="na">je dis ça sans savoir exactement</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="head" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="head" search-expression="false" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" fig="na" loc="expr">off the top of my head, I'd say it would
@@ -4086,7 +4086,7 @@
             <!-- With Collins, the expression almost always takes the impersonal pronoun "one" when typing an expression.
             This is one of the only exceptions I've found, even though it's not a perfectly fixed idiomatic expression. It
             can take "one's", "my", "his/her", "your", or "their" -->
-            <sub-entry src-type="collins" main-entry="head" search-expression="true">
+            <sub-entry src-type="collins" main-entry="head" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">off the top of my head</alt>
                   <paraphrase>without reflection</paraphrase>
@@ -4119,13 +4119,13 @@
                <expr p="257">Over one's head</expr>
                <coca count="7887">Over _ap head</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="head">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="head" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na">his ideas went right over my ~</phrase>
                   <phrase lang="fr" loc="na" fig="na">ses idées me dépassaient complètement</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="head" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="head" search-expression="false" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" fig="na" loc="expr">her lecture was completely over my
@@ -4149,7 +4149,7 @@
                   </example>
                </grp>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="head" search-expression="true">
+            <sub-entry src-type="collins" main-entry="head" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to go over sb's head</alt>
                   <paraphrase>idea</paraphrase>
@@ -4193,19 +4193,19 @@
             </head>
             <!-- Robert-Collins: almost certainly the literal meaning, being that the definition grouping falls under
             "to relieve an itch" .. interesting -->
-            <sub-entry src-type="robert-collins" main-entry="scratch" sub-article="false">
+            <sub-entry src-type="robert-collins" main-entry="scratch" sub-article="false" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to ~ one's head</alt>
                   <trad pos="na" loc="na" fig="na">se gratter la tête</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="scratch" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="scratch" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">to scratch one's head</alt>
                   <trad pos="na" fig="na" loc="na">se gratter la tête</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="scratch" search-expression="true">
+            <sub-entry src-type="collins" main-entry="scratch" search-expression="true" search="head">
                <def>
                   <alt pos="na" loc="na" fig="both">to scratch one's head</alt>
                   <trad pos="na" loc="na" fig="na">se gratter la tête</trad>
@@ -4221,7 +4221,7 @@
                <expr p="364">Turn one's head</expr>
                <coca count="3909">TURN _ap head</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="head" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="head" search-expression="false" search="body">
                <grp>
                   <example>
                      <phrase lang="eng" loc="na" fig="na">turn your head this way</phrase>
@@ -4263,7 +4263,7 @@
                   noggin</expr>
                <coca count="499">USE _ap bean|noodle|noggin|head</coca>
             </head>
-            <sub-entry main-entry="head" src-type="larousse" search-expression="false">
+            <sub-entry main-entry="head" src-type="larousse" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="na">use your head!</phrase>
                   <phrase lang="fr" fig="na" loc="na">fais travailler les méninges !</phrase>
@@ -4278,7 +4278,7 @@
                <expr p="131">Get under one's skin</expr>
                <coca count="509">GET under _ap skin</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="skin" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="skin" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" loc="expr" fig="na">he really gets under my skin</phrase>
                   <phrase lang="fr" loc="na" fig="na">il me tape sur les nerfs, celui-là</phrase>
@@ -4293,7 +4293,7 @@
                <expr p="14">At heart</expr>
                <coca count="2897">At heart</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="true" main-entry="heart">
+            <sub-entry src-type="robert-collins" sub-article="true" main-entry="heart" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">at heart</alt>
                   <trad pos="na" loc="na" fig="na">au fond</trad>
@@ -4392,7 +4392,7 @@
                <expr p="32">Bless one's heart</expr>
                <coca count="459">BLESS _ap heart</coca>
             </head>
-            <sub-entry src-type="larousse" main-entry="bless" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="bless" search-expression="false" search="head">
                <example>
                   <phrase lang="eng" fig="na" loc="na">he remembered her birthday, bless his
                      heart!</phrase>
@@ -4407,19 +4407,19 @@
                <expr p="56">Change of heart</expr>
                <coca count="1277">Change of heart</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="change">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="change" search="head">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a ~ of heart</alt>
                   <trad pos="na" loc="na" fig="na">changer d'avis</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="change" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="change" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="false" loc="false">to have a change of heart</alt>
                   <trad pos="na" fig="false" loc="false">changer d'avis</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="heart" search-expression="true">
+            <sub-entry src-type="collins" main-entry="heart" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a change of heart</alt>
                   <trad pos="na" loc="na" fig="na">changer d'avis</trad>
@@ -4461,14 +4461,14 @@
                <expr p="119">From the bottom of one's heart or with all one's heart</expr>
                <coca count="1902">From the bottom of _ap heart; With all _ap heart</coca>
             </head>
-            <sub-entry main-entry="bottom" src-type="larousse" search-expression="false">
+            <sub-entry main-entry="bottom" src-type="larousse" search-expression="false" search="other">
                <example>
                   <phrase lang="eng" fig="true" loc="na">he thanked them from the bottom of his
                      heart</phrase>
                   <phrase lang="fr" fig="na" loc="na">il les a remerciés du fond du cœur</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="bottom" search-expression="true">
+            <sub-entry src-type="collins" main-entry="bottom" search-expression="true" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">from the bottom of one's heart</alt>
                   <trad pos="na" loc="na" fig="na">du fond du cœur</trad>
@@ -4489,13 +4489,13 @@
                <expr p="153">Have a heart</expr>
                <coca count="3885">HAVE a heart</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="heart">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="heart" search="body">
                <example>
                   <phrase lang="eng" loc="na" fig="na" register="informal">have a ~!</phrase>
                   <phrase lang="fr" loc="na" fig="na" register="informal">pitié !</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="heart" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="heart" search-expression="false" search="body">
                <example>
                   <phrase lang="eng" fig="na" loc="expr">have a heart!</phrase>
                   <phrase lang="fr" fig="na" loc="na">pitié !</phrase>
@@ -4538,6 +4538,13 @@
                <expr p="159">Heart goes out to</expr>
                <coca count="794">Heart GO out to</coca>
             </head>
+            <sub-entry src-type="collins" main-entry="heart" search-expression="true" search="body">
+               <example>
+                  <paraphrase>I felt sorry for them</paraphrase>
+                  <phrase lang="eng" loc="na" fig="na">My heart went out to them</phrase>
+                  <phrase lang="fr" loc="na" fig="na">J'étais de tout cœur avec eux</phrase>
+               </example>
+            </sub-entry>
          </exprs>
          <exprs>
             <head>
@@ -4545,19 +4552,19 @@
                <expr p="159">Heart of gold</expr>
                <coca count="442">Heart of gold</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="heart">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="heart" search="bodyHead">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a ~ of gold</alt>
                   <trad pos="na" loc="na" fig="na">avoir un cœur en or</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="heart" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="heart" search-expression="false" search="bodyHead">
                <example>
                   <phrase lang="eng" fig="na" loc="na">he has a heart of gold/of stone</phrase>
                   <phrase lang="fr" fig="na" loc="na">il a un cœur d'or/de pierre</phrase>
                </example>
             </sub-entry>
-            <sub-entry src-type="collins" main-entry="gold" search-expression="true">
+            <sub-entry src-type="collins" main-entry="gold" search-expression="true" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">to have a heart of gold</alt>
                   <trad pos="na" loc="na" fig="na">avoir un cœur d'or</trad>
@@ -4586,25 +4593,25 @@
                <expr p="16">At the top of one's voice or at the top of one's lungs</expr>
                <coca count="843">At the top of _ap lungs|voice</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="lung" morphology="dif">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="lung" morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">at the top of one's ~s</alt>
                   <trad pos="na" loc="na" fig="na">à tue-tête</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="voice">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="voice" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">at the top of one's ~</alt>
                   <trad pos="na" fig="na" loc="na">à tue-tête</trad>
                </def>
             </sub-entry>
-            <sub-entry main-entry="voice" src-type="larousse" search-expression="false">
+            <sub-entry main-entry="voice" src-type="larousse" search-expression="false" search="body">
                <def>
                   <alt pos="na" fig="na" loc="na">to shout at the top of one's voice</alt>
                   <trad pos="na" fig="na" loc="na">crier à tue-tête</trad>
                </def>
             </sub-entry>
-            <sub-entry main-entry="top" src-type="collins" search-expression="true">
+            <sub-entry main-entry="top" src-type="collins" search-expression="true" search="other">
                <def>
                   <alt pos="na" fig="na" loc="na">at the top of one's voice</alt>
                   <paraphrase>very loudly</paraphrase>
@@ -4632,27 +4639,21 @@
                <expr p="176">In cold blood</expr>
                <coca count="828">In cold blood</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="cold">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="cold" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">in ~ blood</alt>
                   <trad pos="na" loc="na" fig="na">de sang-froid</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="blood" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="blood" search-expression="false" search="body">
                <def>
                   <alt pos="na" fig="na" loc="expr">to do something in cold blood</alt>
                   <trad pos="na" fig="na" loc="na">faire quelque chose de sang-froid</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="cold">
-               <def>
-                  <alt pos="na" loc="na" fig="na">in ~ blood</alt>
-                  <trad pos="na" loc="na" fig="na">de sang-froid</trad>
-               </def>
-            </sub-entry>
 
             <!-- the same sub-entry in two main entries, cold and blood, how did i treat this before ? adding both entries to @main-entry attribute for now. -->
-            <sub-entry src-type="collins" main-entry="blood &amp; cold" search-expression="true">
+            <sub-entry src-type="collins" main-entry="blood &amp; cold" search-expression="true" search="bodyHead-other">
                <def>
                   <alt pos="na" fig="na" loc="na">in cold blood</alt>
                   <trad pos="na" fig="na" loc="na">de sang-froid</trad>
@@ -4679,7 +4680,7 @@
                <expr p="360">To the bone</expr>
                <coca count="1579">To the bone</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="bone">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="bone" search="body">
                <grp>
                   <def>
                      <alt pos="na" loc="na" fig="na">to cut costs to the ~</alt>
@@ -4697,7 +4698,7 @@
                   </def>
                </grp>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="bone" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="bone" search-expression="false" search="body">
                <grp>
                   <def>
                      <alt pos="na" fig="na" loc="expr">chilled OR frozen to the bone</alt>
@@ -4714,14 +4715,14 @@
                </grp>
             </sub-entry>
             <!-- search "to the bone" in collins returns two different sub-entries with two different sets of information -->
-            <sub-entry src-type="collins" main-entry="bone" search-expression="true">
+            <sub-entry src-type="collins" main-entry="bone" search-expression="true" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na">to be chilled to the bone</alt>
                   <trad pos="na" loc="na" fig="na">être glacé jusqu'à la moelle (des os)</trad>
                </def>
             </sub-entry>
             <sub-entry src-type="collins" main-entry="chill" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="other">
                <def>
                   <alt pos="na" loc="na" fig="na">to be chilled to the bone</alt>
                   <trad pos="na" loc="na" fig="na">être transi(e) de froid</trad>
@@ -4762,13 +4763,13 @@
                <expr p="33">Blow one's brains out</expr>
                <coca count="449">BLOW _ap brains out</coca>
             </head>
-            <sub-entry src-type="robert-collins" sub-article="false" main-entry="brain" morphology="dif">
+            <sub-entry src-type="robert-collins" sub-article="false" main-entry="brain" morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" fig="na" register="informal">to blow sb's ~s out</alt>
                   <trad pos="na" loc="na" fig="na">brûler à la cervelle de qn</trad>
                </def>
             </sub-entry>
-            <sub-entry src-type="larousse" main-entry="blow" search-expression="false">
+            <sub-entry src-type="larousse" main-entry="blow" search-expression="false" search="head">
                <def>
                   <alt pos="na" fig="na" loc="na">to blow one's brains out</alt>
                   <trad pos="na" fig="na" loc="na">se faire sauter OU se brûler la cervelle</trad>
@@ -4776,7 +4777,7 @@
             </sub-entry>
             <!-- another moment to highlight the sometimes frustrating searching procedures put forth by Collins, blow one's brains out, no return.. blow sb's brains out, voilà... -->
             <sub-entry src-type="collins" main-entry="brain" search-expression="true"
-               morphology="dif">
+               morphology="dif" search="body">
                <def>
                   <alt pos="na" loc="na" register="informal" fig="na">to blow sb's brains out</alt>
                   <trad pos="na" loc="na" fig="na">faire sauter la cervelle de qn</trad>
